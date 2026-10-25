@@ -1,0 +1,11 @@
+# 第二版效果图
+
+使用内置 imagegen，保留第一版，输出：space-rock-theater-concept-v2.png。
+
+参考素材：第一版效果图、flower-arm（实际文件无扩展名）、background1.png、background2.png；另抽帧查看 background.mp4，理解眼睛睁开与转动的效果。
+
+本图为抓取成功、背景眼睛睁开的静态瞬间，不是动画成品。
+
+## 提示词
+
+Edit the existing miniature theater concept (reference 1) with exactly these three design changes. Preserve the open cylindrical structure, circular ceiling, slender supports, suspended rocks on fine fishing lines, triangular transparent sample container with brass ring, full three-quarter product view and neutral studio surroundings. Reference 2 is the sculptural flower gripper: REPLACE the industrial articulated robot arm entirely with an artistic botanical manipulator, gracefully curved bundled metal stems/tubes rising from the base, supporting a large multilayer bloom of long pointed pale celadon silver-green petals like the reference agave/flower sculpture. No conventional elbow robot arm. Show some petals curling inward around ONE small gray rock at the flower center, clearly holding the rock. Other rocks remain suspended from ceiling, the held rock need not have a fishing line. Change the base's upper surface to sculpted gray-brown planetary regolith terrain, visible raised-rim impact craters of different sizes, fine dust and scattered small stones, with secure mounts for flower stem and container; retain outer circular frame. Replace starfield backdrop completely with a curved rear scenic panel in the visual language of references 3 and 4: warm parchment ivory, dense black/brown stippled etched botanical alien vines, seed pods and bell-like flowers. Integrate four prominent spherical eye pods with OPEN eyelids, white sclera, dark pupils and antique gold patterned shells, matching reference 4, as if awakened when the flower catches the rock. Reference 5 is a video contact sheet showing eyelid animation; render only a single beautiful still of the awakened eyes, not a collage or storyboard. Eye pattern must clearly be a flat scenic animation/projection surface behind the objects, not loose eyeballs floating among rocks. Keep eyes visible above and beside the flower, artistic surreal science theater, not horror. Cohesive premium maker exhibition concept rendering, clear silhouette, whole top and base in frame. No text, no labels, no play button, no watermark, no plants or venue copied from reference photo.

@@ -1,0 +1,11 @@
+# 星球自转与石头公转效果图
+
+日期：2026-10-25。生成工具：内置 imagegen。
+
+输出：space-rock-theater-orbit_2026-10-25.png。
+
+箭头分别示意中央蓝色星球自转与悬浮石头公转，不代表实际轨道机构或实体箭头。效果图中的星球支撑、尺寸比例为概念表达，具体结构待验证。
+
+## 最终提示词
+
+Edit reference image of cylindrical maker space theater, preserve entire cylinder roof, pillars, artistic celadon pointed-petal flower manipulator on curved metal stems at left, elevated internal round platform, crater terrain base, empty transparent triangular sample container with brass ring at lower right, starfield backdrop and manual controls. Main update: enlarge the elevated round platform enough for a planetary orbit demonstration. At the EXACT CENTER of this platform place ONE medium-sized blue Earth-like globe with blue oceans, green/brown land and white clouds, supported discreetly by a small axial mount on the platform, NOT levitating. Show a subtle curved white diagram arrow immediately around globe to denote its axial spin. Exactly ONE much smaller irregular gray clay rock containing hidden magnet LEVITATES with clear air gap above the platform at an offset location on the outer orbit around globe; rock diameter about one quarter globe diameter. Put the rock on front-left orbital position so flower petals reach toward it, without touching it yet. A thin tasteful cyan circular orbit line embedded on platform surrounds globe; one small directional arrow on that orbit communicates the rock's revolution around globe. The orbit is a visual guide, NOT a solid rail touching rock. Visibly distinguish globe spinning about its own axis vs the single rock orbiting globe. No duplicate rocks, no motion ghost copies, no strings attached to rock. Keep globe and rock fully visible and unobstructed by flower; adjust bloom position slightly left if necessary, with clearance. Platform below roof, completely separate from ceiling. Starfield with a small bright cluster suggests success flash; depiction is a single concept still BEFORE pickup, not animation. Entire exhibit framed with margins on pale neutral studio background. Premium artistic/science exhibition concept rendering, coherent silver brass pale green palette with cool blue lighting, no text or dimension labels, no watermark. Conceptual mechanical arrangement not a validated engineering drawing.

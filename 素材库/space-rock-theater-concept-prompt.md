@@ -1,0 +1,9 @@
+# 概念效果图生成说明
+
+生成方式：内置 imagegen。图片为概念造型参考，工程结构尚需验证。
+
+参考图：structure.png（圆柱框架）；stone-container.png（三角形容器与圆环）。
+
+## 最终提示词
+
+Use case: stylized-concept. Create one polished 3D concept rendering for a third-grade maker team's miniature space rock collection theater, a tangible tabletop school maker model, not a full-scale space station. Use reference image 1 only for open cylindrical architecture: circular ceiling disk and ring, circular base, slender vertical supports and layered mechanical aesthetic; omit plants, brands and watermarks. Use reference image 2 only for sample container appearance: triangular transparent display chamber, dark frame and a brass circular ring behind it; do not imply magnetic levitation. Show whole tabletop model in three-quarter view, front open so all working elements are readable. Several small irregular gray rock models hang on visible fine transparent fishing lines from underside of circular ceiling. A single articulated mechanical arm fixed on the base has a distinctly flower-petal shaped gripper with five curved metallic petals, reaching toward ONE hanging rock, gripper center almost touching rock to suggest magnetic pickup. A separate triangular sample container with a visible accessible top opening sits within the base on the other side, with one rock already resting inside. Maintain plausible simple school-buildable structure, enough clearance, no tangled lines. Small restrained cool blue light accents, metallic silver, dark space blue, subtle brass container ring, miniature star-pattern backdrop visible behind open framework. Studio product concept visualization, artistic yet clear, pale neutral background, entire base and ceiling visible, no humans, no text, no labels, no logos, no unnecessary machinery. This is a proposed visual layout, not an engineering blueprint.
