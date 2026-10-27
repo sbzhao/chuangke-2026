@@ -1,0 +1,287 @@
+{
+  "status": "参考图已生成；童声与视频待制作",
+  "video_seconds": 126,
+  "title_seconds": 4,
+  "total_seconds": 130,
+  "shots": [
+    {
+      "id": "01",
+      "title": "遥远的眨光",
+      "start": 0,
+      "end": 10,
+      "duration": 10,
+      "original": "01–03",
+      "refs": [
+        "视频/H3制作请求/refs/world_star.png"
+      ],
+      "audio": "视频/H3制作请求/audio/01_01_旁白.wav",
+      "prompt": "prompts/01.txt",
+      "output": "output/01.mp4"
+    },
+    {
+      "id": "02",
+      "title": "途中：木星引力辅助",
+      "start": 10,
+      "end": 16,
+      "duration": 6,
+      "original": "新增，接原04",
+      "refs": [
+        "视频/H3制作请求/refs/ship.png",
+        "视频/H3制作请求/refs/jupiter.png"
+      ],
+      "audio": "视频/H3制作请求/audio/02_01_旁白.wav",
+      "prompt": "prompts/02.txt",
+      "output": "output/02.mp4"
+    },
+    {
+      "id": "03",
+      "title": "抵达柯伊伯带",
+      "start": 16,
+      "end": 21,
+      "duration": 5,
+      "original": "04",
+      "refs": [
+        "视频/H3制作请求/refs/ship.png",
+        "视频/H3制作请求/refs/world_wide.png"
+      ],
+      "audio": "视频/H3制作请求/audio/03_01_旁白.wav",
+      "prompt": "prompts/03.txt",
+      "output": "output/03.mp4"
+    },
+    {
+      "id": "04",
+      "title": "驾驶员与科学官判断",
+      "start": 21,
+      "end": 30,
+      "duration": 9,
+      "original": "05–07",
+      "refs": [
+        "视频/H3制作请求/refs/cabin.png",
+        "视频/H3制作请求/refs/张楚珺.png",
+        "视频/H3制作请求/refs/赵以清.png"
+      ],
+      "audio": "视频/H3制作请求/audio/04_mix.wav",
+      "prompt": "prompts/04.txt",
+      "output": "output/04.mp4"
+    },
+    {
+      "id": "05",
+      "title": "指令长下令",
+      "start": 30,
+      "end": 39,
+      "duration": 9,
+      "original": "08–09",
+      "refs": [
+        "视频/H3制作请求/refs/cabin.png",
+        "视频/H3制作请求/refs/张铭轩.png"
+      ],
+      "audio": "视频/H3制作请求/audio/05_01_张铭轩.wav",
+      "prompt": "prompts/05.txt",
+      "output": "output/05.mp4"
+    },
+    {
+      "id": "06",
+      "title": "相伴的两颗石头",
+      "start": 39,
+      "end": 48,
+      "duration": 9,
+      "original": "09–12",
+      "refs": [
+        "视频/H3制作请求/refs/world_wide.png",
+        "视频/H3制作请求/refs/rock.png",
+        "视频/H3制作请求/refs/companion_closed.png"
+      ],
+      "audio": "视频/H3制作请求/audio/06_01_旁白.wav",
+      "prompt": "prompts/06.txt",
+      "output": "output/06.mp4"
+    },
+    {
+      "id": "07",
+      "title": "第一次接近落空",
+      "start": 48,
+      "end": 54,
+      "duration": 6,
+      "original": "13–14",
+      "refs": [
+        "视频/H3制作请求/refs/arm.png",
+        "视频/H3制作请求/refs/rock.png",
+        "视频/H3制作请求/refs/汤兴昊_station-v2.png"
+      ],
+      "audio": "视频/H3制作请求/audio/07_01_汤兴昊.wav",
+      "prompt": "prompts/07.txt",
+      "output": "output/07.mp4"
+    },
+    {
+      "id": "08",
+      "title": "等待下一个窗口",
+      "start": 54,
+      "end": 61,
+      "duration": 7,
+      "original": "14–15",
+      "refs": [
+        "视频/H3制作请求/refs/cabin.png",
+        "视频/H3制作请求/refs/汤兴昊.png",
+        "视频/H3制作请求/refs/张楚珺.png"
+      ],
+      "audio": "视频/H3制作请求/audio/08_01_张楚珺.wav",
+      "prompt": "prompts/08.txt",
+      "output": "output/08.mp4"
+    },
+    {
+      "id": "09",
+      "title": "窗口将至",
+      "start": 61,
+      "end": 67,
+      "duration": 6,
+      "original": "16",
+      "refs": [
+        "视频/H3制作请求/refs/cabin.png",
+        "视频/H3制作请求/refs/赵以清.png"
+      ],
+      "audio": "视频/H3制作请求/audio/09_01_赵以清.wav",
+      "prompt": "prompts/09.txt",
+      "output": "output/09.mp4"
+    },
+    {
+      "id": "10",
+      "title": "五瓣抓手锁定",
+      "start": 67,
+      "end": 73,
+      "duration": 6,
+      "original": "17",
+      "refs": [
+        "视频/H3制作请求/refs/arm.png",
+        "视频/H3制作请求/refs/rock.png"
+      ],
+      "audio": "视频/H3制作请求/audio/10_01_汤兴昊.wav",
+      "prompt": "prompts/10.txt",
+      "output": "output/10.mp4"
+    },
+    {
+      "id": "11",
+      "title": "缓慢带离",
+      "start": 73,
+      "end": 80,
+      "duration": 7,
+      "original": "18–19",
+      "refs": [
+        "视频/H3制作请求/refs/arm.png",
+        "视频/H3制作请求/refs/rock.png",
+        "视频/H3制作请求/refs/world_wide.png"
+      ],
+      "audio": "视频/H3制作请求/audio/11_01_旁白.wav",
+      "prompt": "prompts/11.txt",
+      "output": "output/11.mp4"
+    },
+    {
+      "id": "12",
+      "title": "多出的一次闪光",
+      "start": 80,
+      "end": 87,
+      "duration": 7,
+      "original": "20a–21",
+      "refs": [
+        "视频/H3制作请求/refs/cabin.png",
+        "视频/H3制作请求/refs/赵以清.png",
+        "视频/H3制作请求/refs/companion_closed.png"
+      ],
+      "audio": "视频/H3制作请求/audio/12_01_赵以清.wav",
+      "prompt": "prompts/12.txt",
+      "output": "output/12.mp4"
+    },
+    {
+      "id": "13",
+      "title": "样本进入三角舱",
+      "start": 87,
+      "end": 95,
+      "duration": 8,
+      "original": "22",
+      "refs": [
+        "视频/H3制作请求/refs/arm.png",
+        "视频/H3制作请求/refs/rock.png",
+        "视频/H3制作请求/refs/chamber-v2.png"
+      ],
+      "audio": "视频/H3制作请求/audio/13_01_旁白.wav",
+      "prompt": "prompts/13.txt",
+      "output": "output/13.mp4"
+    },
+    {
+      "id": "14",
+      "title": "一千个倒影",
+      "start": 95,
+      "end": 104,
+      "duration": 9,
+      "original": "23–24a",
+      "refs": [
+        "视频/H3制作请求/refs/chamber-v2.png",
+        "视频/H3制作请求/refs/rock.png",
+        "视频/H3制作请求/refs/cabin.png",
+        "视频/H3制作请求/refs/王一初.png"
+      ],
+      "audio": "视频/H3制作请求/audio/14_mix.wav",
+      "prompt": "prompts/14.txt",
+      "output": "output/14.mp4"
+    },
+    {
+      "id": "15",
+      "title": "返航姿态调整",
+      "start": 104,
+      "end": 109,
+      "duration": 5,
+      "original": "24b",
+      "refs": [
+        "视频/H3制作请求/refs/ship.png",
+        "视频/H3制作请求/refs/world_wide.png"
+      ],
+      "audio": null,
+      "prompt": "prompts/15.txt",
+      "output": "output/15.mp4"
+    },
+    {
+      "id": "16",
+      "title": "再看一眼",
+      "start": 109,
+      "end": 114,
+      "duration": 5,
+      "original": "25",
+      "refs": [
+        "视频/H3制作请求/refs/cabin.png",
+        "视频/H3制作请求/refs/张铭轩.png"
+      ],
+      "audio": "视频/H3制作请求/audio/16_01_张铭轩.wav",
+      "prompt": "prompts/16.txt",
+      "output": "output/16.mp4"
+    },
+    {
+      "id": "17",
+      "title": "回望与睁开",
+      "start": 114,
+      "end": 121,
+      "duration": 7,
+      "original": "26–27",
+      "refs": [
+        "视频/H3制作请求/refs/cabin.png",
+        "视频/H3制作请求/refs/companion_closed.png",
+        "视频/H3制作请求/refs/companion_open-v2.png"
+      ],
+      "audio": "视频/H3制作请求/audio/17_01_旁白.wav",
+      "prompt": "prompts/17.txt",
+      "output": "output/17.mp4"
+    },
+    {
+      "id": "18",
+      "title": "它看着我们",
+      "start": 121,
+      "end": 126,
+      "duration": 5,
+      "original": "28",
+      "refs": [
+        "视频/H3制作请求/refs/companion_open-v2.png",
+        "视频/H3制作请求/refs/ship.png"
+      ],
+      "audio": "视频/H3制作请求/audio/18_01_旁白.wav",
+      "prompt": "prompts/18.txt",
+      "output": "output/18.mp4"
+    }
+  ]
+}

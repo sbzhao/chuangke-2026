@@ -1,0 +1,127 @@
+{
+  "status": "已生成，声音年龄听感与表演仍待试听核对",
+  "voices": {
+    "旁白": "cute_boy",
+    "张铭轩": "clever_boy",
+    "张楚珺": "lovely_girl",
+    "汤兴昊": "Chinese (Mandarin)_Pure-hearted_Boy",
+    "赵以清": "Chinese (Mandarin)_Soft_Girl",
+    "王一初": "Chinese (Mandarin)_Straightforward_Boy"
+  },
+  "clips": [
+    {
+      "file": "视频/H3制作请求/audio/01_01_旁白.wav",
+      "seconds": 8.3,
+      "voice": "cute_boy",
+      "text": "在太阳系尽头，有一道光。每隔约十六小时，它就出现一次。"
+    },
+    {
+      "file": "视频/H3制作请求/audio/02_01_旁白.wav",
+      "seconds": 3.959031,
+      "voice": "cute_boy",
+      "text": "为了这次抵达，我们准备了很久。"
+    },
+    {
+      "file": "视频/H3制作请求/audio/03_01_旁白.wav",
+      "seconds": 2.217531,
+      "voice": "cute_boy",
+      "text": "现在，去看一眼。"
+    },
+    {
+      "file": "视频/H3制作请求/audio/04_01_张楚珺.wav",
+      "seconds": 3.750031,
+      "voice": "lovely_girl",
+      "text": "自转周期，十五点九二小时。"
+    },
+    {
+      "file": "视频/H3制作请求/audio/04_02_赵以清.wav",
+      "seconds": 2.9,
+      "voice": "Chinese (Mandarin)_Soft_Girl",
+      "text": "那道眨眼的光……是它在转。"
+    },
+    {
+      "file": "视频/H3制作请求/audio/05_01_张铭轩.wav",
+      "seconds": 5.793406,
+      "voice": "clever_boy",
+      "text": "任务：取回一块太阳系出生时的石头。只有一次机会。"
+    },
+    {
+      "file": "视频/H3制作请求/audio/06_01_旁白.wav",
+      "seconds": 8.742313,
+      "voice": "cute_boy",
+      "text": "它不是一颗，是两颗。它们来自四十六亿年前。很久以来，一直相伴而行。"
+    },
+    {
+      "file": "视频/H3制作请求/audio/07_01_汤兴昊.wav",
+      "seconds": 2.7,
+      "voice": "Chinese (Mandarin)_Pure-hearted_Boy",
+      "text": "第一次接近——它转开了。"
+    },
+    {
+      "file": "视频/H3制作请求/audio/08_01_张楚珺.wav",
+      "seconds": 3.1115,
+      "voice": "lovely_girl",
+      "text": "下一个窗口，十六分钟后。"
+    },
+    {
+      "file": "视频/H3制作请求/audio/09_01_赵以清.wav",
+      "seconds": 4.5,
+      "voice": "Chinese (Mandarin)_Soft_Girl",
+      "text": "它的自转……太稳了。像在等我们。"
+    },
+    {
+      "file": "视频/H3制作请求/audio/10_01_汤兴昊.wav",
+      "seconds": 2.5,
+      "voice": "Chinese (Mandarin)_Pure-hearted_Boy",
+      "text": "锁定——花瓣合拢！"
+    },
+    {
+      "file": "视频/H3制作请求/audio/11_01_旁白.wav",
+      "seconds": 4.899438,
+      "voice": "cute_boy",
+      "text": "我们拆散了它们。四十六亿年来，第一次。"
+    },
+    {
+      "file": "视频/H3制作请求/audio/12_01_赵以清.wav",
+      "seconds": 6.0,
+      "voice": "Chinese (Mandarin)_Soft_Girl",
+      "text": "等等——那颗星，比别的星，多闪了一下。背景最暗的那颗。"
+    },
+    {
+      "file": "视频/H3制作请求/audio/13_01_旁白.wav",
+      "seconds": 3.796469,
+      "voice": "cute_boy",
+      "text": "我们把它关进会复制它的盒子。"
+    },
+    {
+      "file": "视频/H3制作请求/audio/14_01_旁白.wav",
+      "seconds": 2.809625,
+      "voice": "cute_boy",
+      "text": "一个，变成了一千个。"
+    },
+    {
+      "file": "视频/H3制作请求/audio/14_02_王一初.wav",
+      "seconds": 3.8,
+      "voice": "Chinese (Mandarin)_Straightforward_Boy",
+      "text": "“回声”号，样本已封装，准备返航。"
+    },
+    {
+      "file": "视频/H3制作请求/audio/16_01_张铭轩.wav",
+      "seconds": 2.2,
+      "voice": "clever_boy",
+      "text": "等等。再看它一眼。"
+    },
+    {
+      "file": "视频/H3制作请求/audio/17_01_旁白.wav",
+      "seconds": 4.388594,
+      "voice": "cute_boy",
+      "text": "四十六亿年，它只看过一样东西。"
+    },
+    {
+      "file": "视频/H3制作请求/audio/18_01_旁白.wav",
+      "seconds": 2.635469,
+      "voice": "cute_boy",
+      "text": "现在，它看着我们。"
+    }
+  ]
+}

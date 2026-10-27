@@ -1,0 +1,38 @@
+{
+  "status": "19句音频完成；03候选可预览；04初版与15返航均未通过叙事验收",
+  "video_submitted": true,
+  "audio_04_ready": true,
+  "voice_ids": {
+    "张楚珺": "lovely_girl",
+    "赵以清": "Chinese (Mandarin)_Soft_Girl"
+  },
+  "prompt": "prompts/04_执行版.txt",
+  "task_id": "456951709647082",
+  "output": "output/04.mp4",
+  "review": {
+    "04": "两位无眼镜女孩被添加眼镜，禁止作为合格素材"
+  },
+  "first_version": "output/04.mp4",
+  "audio_clips_ready": 19,
+  "revision_04": {
+    "status": "提交状态不确定，等待后台任务ID，禁止重复提交",
+    "prompt": "prompts/04_修正版.txt"
+  },
+  "video_tasks": {
+    "04": {
+      "task_id": "456951709647082",
+      "status": "succeeded",
+      "review": "眼镜错误，身份不合格",
+      "output": "output/04.mp4"
+    },
+    "15": {
+      "task_id": "457070070374596",
+      "status": "succeeded",
+      "review": "含已回收近石，不能用于返航；转作03候选",
+      "output": "output/15.mp4"
+    }
+  },
+  "candidates": {
+    "03": "output/03-candidate.mp4"
+  }
+}
