@@ -1,5 +1,5 @@
 {
-  "status": "按用户要求暂停视频生成，等待Token额度恢复",
+  "status": "准备生成04儿童音色新版",
   "video_submitted": true,
   "audio_04_ready": true,
   "voice_ids": {
@@ -52,6 +52,13 @@
   "pause_request": {
     "requested_wait_hours": 3,
     "reason": "MiniMax Token额度上限2056",
-    "generation_paused": true
+    "generation_paused": false
+  },
+  "voice_config": "audio_child_v2/声线配置.json",
+  "child_voice_update": {
+    "status": "19句预设儿童音色已就绪",
+    "changed_lines": 6,
+    "audio_directory": "audio_child_v2",
+    "version04": "新的预设儿童音色版，独立于未确认的旧修正版；旧任务不重投"
   }
 }

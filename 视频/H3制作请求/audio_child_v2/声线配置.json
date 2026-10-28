@@ -1,0 +1,30 @@
+{
+  "voices": {
+    "张铭轩": {
+      "voice": "clever_boy",
+      "speed": 1.0
+    },
+    "张楚珺": {
+      "voice": "lovely_girl",
+      "speed": 1.0
+    },
+    "汤兴昊": {
+      "voice": "cute_boy",
+      "speed": 1.0
+    },
+    "赵以清": {
+      "voice": "lovely_girl",
+      "speed": 0.96
+    },
+    "王一初": {
+      "voice": "clever_boy",
+      "speed": 1.04
+    },
+    "旁白": {
+      "voice": "cute_boy",
+      "speed": 1.0
+    }
+  },
+  "source": "https://github.com/MiniMax-AI/skills/blob/main/skills/frontend-dev/references/minimax-voice-catalog.md",
+  "note": "三个预设分配五名角色，部分共享voice_id，通过轻微语速与表演差异区分；不使用青年预设，不声称五种独立音色。"
+}

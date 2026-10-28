@@ -14,7 +14,7 @@
       "refs": [
         "视频/H3制作请求/refs/world_star.png"
       ],
-      "audio": "视频/H3制作请求/audio/01_01_旁白.wav",
+      "audio": "视频/H3制作请求/audio_child_v2/01_01_旁白.wav",
       "prompt": "prompts/01.txt",
       "output": "output/01.mp4"
     },
@@ -29,7 +29,7 @@
         "视频/H3制作请求/refs/ship.png",
         "视频/H3制作请求/refs/jupiter.png"
       ],
-      "audio": "视频/H3制作请求/audio/02_01_旁白.wav",
+      "audio": "视频/H3制作请求/audio_child_v2/02_01_旁白.wav",
       "prompt": "prompts/02.txt",
       "output": "output/02.mp4"
     },
@@ -44,7 +44,7 @@
         "视频/H3制作请求/refs/ship.png",
         "视频/H3制作请求/refs/world_wide.png"
       ],
-      "audio": "视频/H3制作请求/audio/03_01_旁白.wav",
+      "audio": "视频/H3制作请求/audio_child_v2/03_01_旁白.wav",
       "prompt": "prompts/03.txt",
       "output": "output/03.mp4"
     },
@@ -60,7 +60,7 @@
         "视频/H3制作请求/refs/张楚珺.png",
         "视频/H3制作请求/refs/赵以清.png"
       ],
-      "audio": "视频/H3制作请求/audio/04_mix.wav",
+      "audio": "视频/H3制作请求/audio_child_v2/04_mix.wav",
       "prompt": "prompts/04.txt",
       "output": "output/04.mp4"
     },
@@ -75,7 +75,7 @@
         "视频/H3制作请求/refs/cabin.png",
         "视频/H3制作请求/refs/张铭轩.png"
       ],
-      "audio": "视频/H3制作请求/audio/05_01_张铭轩.wav",
+      "audio": "视频/H3制作请求/audio_child_v2/05_01_张铭轩.wav",
       "prompt": "prompts/05.txt",
       "output": "output/05.mp4"
     },
@@ -91,7 +91,7 @@
         "视频/H3制作请求/refs/rock.png",
         "视频/H3制作请求/refs/companion_closed.png"
       ],
-      "audio": "视频/H3制作请求/audio/06_01_旁白.wav",
+      "audio": "视频/H3制作请求/audio_child_v2/06_01_旁白.wav",
       "prompt": "prompts/06.txt",
       "output": "output/06.mp4"
     },
@@ -107,7 +107,7 @@
         "视频/H3制作请求/refs/rock.png",
         "视频/H3制作请求/refs/汤兴昊_station-v2.png"
       ],
-      "audio": "视频/H3制作请求/audio/07_01_汤兴昊.wav",
+      "audio": "视频/H3制作请求/audio_child_v2/07_01_汤兴昊.wav",
       "prompt": "prompts/07.txt",
       "output": "output/07.mp4"
     },
@@ -123,7 +123,7 @@
         "视频/H3制作请求/refs/汤兴昊.png",
         "视频/H3制作请求/refs/张楚珺.png"
       ],
-      "audio": "视频/H3制作请求/audio/08_01_张楚珺.wav",
+      "audio": "视频/H3制作请求/audio_child_v2/08_01_张楚珺.wav",
       "prompt": "prompts/08.txt",
       "output": "output/08.mp4"
     },
@@ -138,7 +138,7 @@
         "视频/H3制作请求/refs/cabin.png",
         "视频/H3制作请求/refs/赵以清.png"
       ],
-      "audio": "视频/H3制作请求/audio/09_01_赵以清.wav",
+      "audio": "视频/H3制作请求/audio_child_v2/09_01_赵以清.wav",
       "prompt": "prompts/09.txt",
       "output": "output/09.mp4"
     },
@@ -153,7 +153,7 @@
         "视频/H3制作请求/refs/arm.png",
         "视频/H3制作请求/refs/rock.png"
       ],
-      "audio": "视频/H3制作请求/audio/10_01_汤兴昊.wav",
+      "audio": "视频/H3制作请求/audio_child_v2/10_01_汤兴昊.wav",
       "prompt": "prompts/10.txt",
       "output": "output/10.mp4"
     },
@@ -169,7 +169,7 @@
         "视频/H3制作请求/refs/rock.png",
         "视频/H3制作请求/refs/world_wide.png"
       ],
-      "audio": "视频/H3制作请求/audio/11_01_旁白.wav",
+      "audio": "视频/H3制作请求/audio_child_v2/11_01_旁白.wav",
       "prompt": "prompts/11.txt",
       "output": "output/11.mp4"
     },
@@ -185,7 +185,7 @@
         "视频/H3制作请求/refs/赵以清.png",
         "视频/H3制作请求/refs/companion_closed.png"
       ],
-      "audio": "视频/H3制作请求/audio/12_01_赵以清.wav",
+      "audio": "视频/H3制作请求/audio_child_v2/12_01_赵以清.wav",
       "prompt": "prompts/12.txt",
       "output": "output/12.mp4"
     },
@@ -201,7 +201,7 @@
         "视频/H3制作请求/refs/rock.png",
         "视频/H3制作请求/refs/chamber-v2.png"
       ],
-      "audio": "视频/H3制作请求/audio/13_01_旁白.wav",
+      "audio": "视频/H3制作请求/audio_child_v2/13_01_旁白.wav",
       "prompt": "prompts/13.txt",
       "output": "output/13.mp4"
     },
@@ -218,7 +218,7 @@
         "视频/H3制作请求/refs/cabin.png",
         "视频/H3制作请求/refs/王一初.png"
       ],
-      "audio": "视频/H3制作请求/audio/14_mix.wav",
+      "audio": "视频/H3制作请求/audio_child_v2/14_mix.wav",
       "prompt": "prompts/14.txt",
       "output": "output/14.mp4"
     },
@@ -248,7 +248,7 @@
         "视频/H3制作请求/refs/cabin.png",
         "视频/H3制作请求/refs/张铭轩.png"
       ],
-      "audio": "视频/H3制作请求/audio/16_01_张铭轩.wav",
+      "audio": "视频/H3制作请求/audio_child_v2/16_01_张铭轩.wav",
       "prompt": "prompts/16.txt",
       "output": "output/16.mp4"
     },
@@ -264,7 +264,7 @@
         "视频/H3制作请求/refs/companion_closed.png",
         "视频/H3制作请求/refs/companion_open-v2.png"
       ],
-      "audio": "视频/H3制作请求/audio/17_01_旁白.wav",
+      "audio": "视频/H3制作请求/audio_child_v2/17_01_旁白.wav",
       "prompt": "prompts/17.txt",
       "output": "output/17.mp4"
     },
@@ -279,7 +279,7 @@
         "视频/H3制作请求/refs/companion_open-v2.png",
         "视频/H3制作请求/refs/ship.png"
       ],
-      "audio": "视频/H3制作请求/audio/18_01_旁白.wav",
+      "audio": "视频/H3制作请求/audio_child_v2/18_01_旁白.wav",
       "prompt": "prompts/18.txt",
       "output": "output/18.mp4"
     }
