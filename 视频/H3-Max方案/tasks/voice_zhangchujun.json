@@ -1,24 +1,21 @@
 {
   "person": "张楚珺",
-  "voice_id": "qukanyiyan_zhangchujun_20261029a",
+  "voice_id": "qukanyiyan_zhangchujun_20261029b",
   "consent": "User confirmed member and guardian consent for this film",
   "model": "speech-2.8-turbo",
-  "status": "blocked_permission",
-  "updated_at": "2026-10-29T02:26:52.970858+00:00",
+  "status": "clone_error_or_uncertain",
+  "note": "User explicitly replaced key; fresh upload avoids cross-account file IDs. Old rejected attempt archived.",
+  "updated_at": "2026-10-29T03:16:15.746632+00:00",
   "sample": "audio/samples/张楚珺.wav",
-  "file_id": 457474049819204,
+  "file_id": 457480533500142,
   "clone_request": {
-    "file_id": 457474049819204,
-    "voice_id": "qukanyiyan_zhangchujun_20261029a",
+    "file_id": 457480533500142,
+    "voice_id": "qukanyiyan_zhangchujun_20261029b",
     "text": "抵达目标，进入伴飞。",
     "model": "speech-2.8-turbo",
     "language_boost": "Chinese",
     "need_noise_reduction": false,
     "need_volume_normalization": true
   },
-  "error": {
-    "status_code": 2038,
-    "status_msg": "voice clone user forbidden"
-  },
-  "note": "Clone API rejected; no voice or demo created. Other four clone requests not submitted. Do not retry until permission enabled."
+  "error": "{\"input_sensitive\": false, \"input_sensitive_type\": 0, \"demo_audio\": \"\", \"base_resp\": {\"status_code\": 2061, \"status_msg\": \"your current token plan not support model, voice_clone\"}}"
 }

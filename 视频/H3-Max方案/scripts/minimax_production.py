@@ -126,7 +126,14 @@ def clone(name):
                'need_noise_reduction': False, 'need_volume_normalization': True}
     record.update(status='cloning', clone_request=payload, updated_at=now())
     save(path, record)
-    result = request('/v1/voice_clone', payload)
+    try:
+        result = request('/v1/voice_clone', payload)
+    except Exception as error:
+        message = str(error)
+        record.update(status='blocked_permission' if '2038' in message else 'clone_error_or_uncertain',
+                      error=message, updated_at=now())
+        save(path, record)
+        raise
     record.update(status='cloned', response=result, updated_at=now())
     save(path, record)
     if result.get('demo_audio'):
@@ -172,7 +179,7 @@ def media_item(kind, source, role):
 
 def video(manifest_path):
     spec = json.loads(Path(manifest_path).read_text())
-    assert spec['model'] == 'MiniMax-H3-Max' and spec['resolution'] == '480P'
+    assert spec['model'] == 'MiniMax-H3-Max' and spec['resolution'] in ('480P', '768P')
     assert 5 <= spec['duration'] <= 15 and spec['ratio'] == '16:9'
     log = ROOT / 'tasks' / (spec['id'] + '.json')
     output = ROOT / 'output' / (spec['id'] + '.mp4')

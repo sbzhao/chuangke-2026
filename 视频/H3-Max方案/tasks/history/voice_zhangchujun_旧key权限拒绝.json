@@ -1,0 +1,24 @@
+{
+  "person": "张楚珺",
+  "voice_id": "qukanyiyan_zhangchujun_20261029a",
+  "consent": "User confirmed member and guardian consent for this film",
+  "model": "speech-2.8-turbo",
+  "status": "blocked_permission",
+  "updated_at": "2026-10-29T02:26:52.970858+00:00",
+  "sample": "audio/samples/张楚珺.wav",
+  "file_id": 457474049819204,
+  "clone_request": {
+    "file_id": 457474049819204,
+    "voice_id": "qukanyiyan_zhangchujun_20261029a",
+    "text": "抵达目标，进入伴飞。",
+    "model": "speech-2.8-turbo",
+    "language_boost": "Chinese",
+    "need_noise_reduction": false,
+    "need_volume_normalization": true
+  },
+  "error": {
+    "status_code": 2038,
+    "status_msg": "voice clone user forbidden"
+  },
+  "note": "Clone API rejected; no voice or demo created. Other four clone requests not submitted. Do not retry until permission enabled."
+}
