@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#162433" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="lightPool" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E8A24A" stop-opacity="0.20"/>
+      <stop offset="60%" stop-color="#E8A24A" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#E8A24A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyanPool" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6FE3F2" stop-opacity="0.16"/>
+      <stop offset="60%" stop-color="#6FE3F2" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#6FE3F2" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="arrowCyan" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#6FE3F2"/>
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#E8A24A"/>
+    </marker>
+    <style>
+      .title { font-family: "Microsoft YaHei","Noto Sans SC",sans-serif; font-size: 34px; font-weight: 700; fill: #F2F5F7; }
+      .subtitle { font-family: "Consolas","Rajdhani",monospace; font-size: 15px; fill: #9FB6C2; letter-spacing: 2.4px; }
+      .section { font-family: "Microsoft YaHei","Noto Sans SC",sans-serif; font-size: 18px; font-weight: 700; fill: #6FE3F2; }
+      .cn { font-family: "Microsoft YaHei","Noto Sans SC",sans-serif; font-size: 14px; font-weight: 600; fill: #F2F5F7; }
+      .cn-small { font-family: "Microsoft YaHei","Noto Sans SC",sans-serif; font-size: 12px; fill: #C9D6DE; }
+      .en { font-family: "Consolas","Rajdhani",monospace; font-size: 9.5px; fill: #6FE3F2; letter-spacing: 1.1px; }
+      .dim { font-family: "Consolas","Rajdhani",monospace; font-size: 12px; fill: #9FB6C2; }
+      .rule { font-family: "Microsoft YaHei","Noto Sans SC",sans-serif; font-size: 12px; fill: #C9D6DE; }
+      .tiny { font-family: "Consolas","Rajdhani",monospace; font-size: 10px; fill: #6F8794; letter-spacing: 1px; }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="1800" height="1200" fill="#0B1420"/>
+  <rect x="0" y="0" width="1800" height="1200" fill="url(#grid)" opacity="0.55"/>
+  <rect x="60" y="40" width="1680" height="1120" fill="none" stroke="#1B2A41" stroke-width="1"/>
+
+  <!-- title -->
+  <text x="80" y="74" class="title">回声号 · 舰桥俯视图</text>
+  <text x="80" y="106" class="subtitle">ECHO — BRIDGE TOP VIEW · 《去看一眼》121 秒版场景设定 · 2026-10-29</text>
+  <text x="80" y="132" class="tiny">ART DIRECTION SHEET · NOT FOR CONSTRUCTION · 单位：米</text>
+
+  <!-- ================= MAIN PLAN ================= -->
+  <!-- light pools -->
+  <circle cx="450" cy="420" r="130" fill="url(#lightPool)"/>
+  <circle cx="810" cy="420" r="130" fill="url(#lightPool)"/>
+  <circle cx="630" cy="650" r="150" fill="url(#cyanPool)"/>
+  <circle cx="420" cy="780" r="110" fill="url(#lightPool)"/>
+  <circle cx="840" cy="780" r="110" fill="url(#lightPool)"/>
+
+  <!-- room shell -->
+  <rect x="180" y="230" width="900" height="640" rx="40" fill="#0A121C" stroke="#3A7C8C" stroke-width="3"/>
+  <rect x="200" y="250" width="860" height="600" rx="30" fill="#0C1622" stroke="#6FE3F2" stroke-width="1.5" opacity="0.9"/>
+
+  <!-- floor grid inside room -->
+  <g opacity="0.35">
+    <path d="M220 290 H1040 M220 330 H1040 M220 370 H1040 M220 410 H1040 M220 450 H1040 M220 490 H1040 M220 530 H1040 M220 570 H1040 M220 610 H1040 M220 650 H1040 M220 690 H1040 M220 730 H1040 M220 770 H1040 M220 810 H1040" stroke="#1B2A41" stroke-width="1"/>
+    <path d="M260 270 V830 M300 270 V830 M340 270 V830 M380 270 V830 M420 270 V830 M460 270 V830 M500 270 V830 M540 270 V830 M580 270 V830 M620 270 V830 M660 270 V830 M700 270 V830 M740 270 V830 M780 270 V830 M820 270 V830 M860 270 V830 M900 270 V830 M940 270 V830 M980 270 V830 M1020 270 V830" stroke="#1B2A41" stroke-width="1"/>
+  </g>
+
+  <!-- forward window -->
+  <rect x="470" y="226" width="320" height="18" rx="4" fill="#6FE3F2" opacity="0.22" stroke="#6FE3F2" stroke-width="2"/>
+  <text x="630" y="206" text-anchor="middle" class="cn">前窗 · 目标方向</text>
+  <text x="630" y="190" text-anchor="middle" class="en">FORWARD WINDOW / TARGET</text>
+  <line x1="630" y1="150" x2="630" y2="176" stroke="#E8A24A" stroke-width="2" marker-end="url(#arrowAmber)"/>
+
+  <!-- main screen -->
+  <path d="M 500 300 Q 630 276 760 300 L 760 334 Q 630 310 500 334 Z" fill="#12303C" stroke="#6FE3F2" stroke-width="1.6"/>
+  <text x="630" y="324" text-anchor="middle" class="en">MAIN SCREEN</text>
+  <text x="630" y="362" text-anchor="middle" class="cn">主屏</text>
+
+  <!-- sample bay projection (below deck) -->
+  <rect x="540" y="396" width="180" height="66" rx="8" fill="none" stroke="#9FB6C2" stroke-width="1.4" stroke-dasharray="6 5" opacity="0.85"/>
+  <text x="630" y="486" text-anchor="middle" class="cn-small">下层样本舱（投影）</text>
+  <text x="630" y="501" text-anchor="middle" class="en">SAMPLE BAY BELOW DECK</text>
+
+  <!-- pilot station -->
+  <rect x="300" y="352" width="180" height="34" rx="17" fill="#102734" stroke="#6FE3F2" stroke-width="1.4"/>
+  <rect x="330" y="360" width="50" height="18" rx="3" fill="#6FE3F2" opacity="0.25" stroke="#6FE3F2" stroke-width="1"/>
+  <rect x="396" y="360" width="54" height="18" rx="3" fill="#6FE3F2" opacity="0.18" stroke="#6FE3F2" stroke-width="1"/>
+  <circle cx="390" cy="430" r="17" fill="#F2F5F7" opacity="0.92"/>
+  <path d="M 373 438 Q 390 462 407 438" fill="none" stroke="#F2F5F7" stroke-width="4" opacity="0.55"/>
+  <text x="390" y="492" text-anchor="middle" class="cn">驾驶台</text>
+  <text x="390" y="507" text-anchor="middle" class="en">PILOT</text>
+
+  <!-- manipulator station -->
+  <rect x="210" y="490" width="54" height="180" rx="14" fill="#102734" stroke="#6FE3F2" stroke-width="1.4"/>
+  <rect x="220" y="510" width="34" height="44" rx="3" fill="#6FE3F2" opacity="0.18" stroke="#6FE3F2" stroke-width="1"/>
+  <circle cx="237" cy="582" r="5" fill="#E8A24A"/>
+  <circle cx="237" cy="620" r="5" fill="#E8A24A"/>
+  <circle cx="350" cy="570" r="17" fill="#F2F5F7" opacity="0.92"/>
+  <path d="M 333 570 Q 350 548 367 570" fill="none" stroke="#F2F5F7" stroke-width="4" opacity="0.55"/>
+  <text x="237" y="700" text-anchor="middle" class="cn">机械臂控制台</text>
+  <text x="237" y="715" text-anchor="middle" class="en">MANIPULATOR</text>
+
+  <!-- science station -->
+  <rect x="1036" y="490" width="54" height="180" rx="14" fill="#102734" stroke="#6FE3F2" stroke-width="1.4"/>
+  <rect x="1046" y="510" width="34" height="44" rx="3" fill="#6FE3F2" opacity="0.18" stroke="#6FE3F2" stroke-width="1"/>
+  <circle cx="910" cy="570" r="17" fill="#F2F5F7" opacity="0.92"/>
+  <path d="M 893 570 Q 910 548 927 570" fill="none" stroke="#F2F5F7" stroke-width="4" opacity="0.55"/>
+  <line x1="1035" y1="694" x2="1052" y2="678" stroke="#6FE3F2" stroke-width="0.8" opacity="0.6"/>
+  <text x="1000" y="700" text-anchor="middle" class="cn">科学观测台</text>
+  <text x="1000" y="715" text-anchor="middle" class="en">SCIENCE</text>
+
+  <!-- comms station -->
+  <rect x="980" y="740" width="80" height="80" rx="12" fill="#102734" stroke="#6FE3F2" stroke-width="1.4"/>
+  <path d="M 995 780 Q 1005 760 1020 780 T 1045 780" fill="none" stroke="#6FE3F2" stroke-width="1.2" opacity="0.8"/>
+  <circle cx="860" cy="780" r="17" fill="#F2F5F7" opacity="0.92"/>
+  <path d="M 843 780 Q 860 758 877 780" fill="none" stroke="#F2F5F7" stroke-width="4" opacity="0.55"/>
+  <text x="1020" y="832" text-anchor="middle" class="cn">通讯台</text>
+  <text x="1020" y="846" text-anchor="middle" class="en">COMMS</text>
+
+  <!-- command station -->
+  <circle cx="630" cy="790" r="24" fill="none" stroke="#E8A24A" stroke-width="1.8"/>
+  <circle cx="630" cy="790" r="7" fill="#E8A24A"/>
+  <line x1="630" y1="766" x2="630" y2="814" stroke="#E8A24A" stroke-width="1" opacity="0.5"/>
+  <line x1="606" y1="790" x2="654" y2="790" stroke="#E8A24A" stroke-width="1" opacity="0.5"/>
+  <text x="600" y="804" text-anchor="end" class="cn">指令席</text>
+  <text x="600" y="819" text-anchor="end" class="en">COMMAND</text>
+
+  <!-- aft hatch -->
+  <rect x="590" y="856" width="80" height="14" rx="3" fill="#E8A24A" opacity="0.25" stroke="#E8A24A" stroke-width="1.8"/>
+  <line x1="670" y1="863" x2="700" y2="880" stroke="#E8A24A" stroke-width="0.8" opacity="0.6"/>
+  <text x="704" y="890" text-anchor="start" class="cn-small">后舱门</text>
+  <text x="704" y="904" text-anchor="start" class="en">AFT HATCH</text>
+
+  <!-- handrails -->
+  <g stroke="#6FE3F2" stroke-width="1" opacity="0.28" stroke-dasharray="10 7">
+    <path d="M 236 300 V 816"/>
+    <path d="M 1024 300 V 816"/>
+    <path d="M 270 282 H 990"/>
+    <path d="M 270 828 H 560"/>
+    <path d="M 700 828 H 990"/>
+  </g>
+  <text x="246" y="310" class="en" opacity="0.7">HANDRAIL</text>
+
+  <!-- ceiling cable trays projection -->
+  <g stroke="#9FB6C2" stroke-width="1" opacity="0.30" stroke-dasharray="4 6">
+    <path d="M 292 300 V 820"/>
+    <path d="M 968 300 V 820"/>
+    <path d="M 292 300 H 968"/>
+  </g>
+
+  <!-- default eyelines -->
+  <g stroke="#6FE3F2" stroke-width="1.1" opacity="0.55" stroke-dasharray="5 6">
+    <path d="M 390 447 L 560 340" marker-end="url(#arrowCyan)"/>
+    <path d="M 900 565 Q 760 500 720 340" fill="none" marker-end="url(#arrowCyan)"/>
+    <path d="M 350 570 H 270" marker-end="url(#arrowCyan)"/>
+    <path d="M 877 780 H 972" marker-end="url(#arrowCyan)"/>
+    <path d="M 630 766 V 260" marker-end="url(#arrowCyan)"/>
+  </g>
+  <text x="520" y="550" class="tiny">DEFAULT EYELINE</text>
+
+  <!-- camera positions -->
+  <g fill="#6FE3F2" opacity="0.9">
+    <polygon points="630,856 622,872 638,872"/>
+    <polygon points="300,800 292,816 308,816"/>
+    <polygon points="960,800 952,816 968,816"/>
+    <polygon points="300,320 292,304 308,304"/>
+    <polygon points="960,320 952,304 968,304"/>
+    <polygon points="630,590 622,606 638,606"/>
+  </g>
+  <g class="en" fill="#6FE3F2">
+    <text x="600" y="886" text-anchor="end">CAM A</text>
+    <text x="300" y="832" text-anchor="middle">CAM B</text>
+    <text x="960" y="832" text-anchor="middle">CAM C</text>
+    <text x="300" y="298" text-anchor="middle">CAM D</text>
+    <text x="960" y="298" text-anchor="middle">CAM E</text>
+    <text x="630" y="622" text-anchor="middle">CAM F</text>
+  </g>
+
+  <!-- scale bar -->
+  <g>
+    <line x1="200" y1="960" x2="400" y2="960" stroke="#9FB6C2" stroke-width="1.5"/>
+    <line x1="200" y1="954" x2="200" y2="966" stroke="#9FB6C2" stroke-width="1.5"/>
+    <line x1="300" y1="954" x2="300" y2="966" stroke="#9FB6C2" stroke-width="1.5"/>
+    <line x1="400" y1="954" x2="400" y2="966" stroke="#9FB6C2" stroke-width="1.5"/>
+    <text x="200" y="982" text-anchor="middle" class="dim">0</text>
+    <text x="300" y="982" text-anchor="middle" class="dim">1</text>
+    <text x="400" y="982" text-anchor="middle" class="dim">2 m</text>
+  </g>
+
+  <!-- ================= RIGHT PANEL ================= -->
+  <rect x="1240" y="160" width="480" height="780" rx="18" fill="#0F1A27" stroke="#1B2A41" stroke-width="1.5"/>
+
+  <!-- legend -->
+  <text x="1264" y="198" class="section">图例 / LEGEND</text>
+  <line x1="1264" y1="218" x2="1696" y2="218" stroke="#1B2A41" stroke-width="1"/>
+
+  <line x1="1264" y1="242" x2="1310" y2="242" stroke="#6FE3F2" stroke-width="2"/>
+  <text x="1324" y="247" class="cn-small">结构 / 屏幕</text>
+  <circle cx="1287" cy="272" r="8" fill="#F2F5F7"/>
+  <text x="1324" y="277" class="cn-small">人员站位</text>
+  <line x1="1264" y1="302" x2="1310" y2="302" stroke="#E8A24A" stroke-width="2"/>
+  <text x="1324" y="307" class="cn-small">暖光 / 舱门</text>
+  <line x1="1264" y1="332" x2="1310" y2="332" stroke="#E85A9A" stroke-width="2"/>
+  <text x="1324" y="337" class="cn-small">警示</text>
+  <line x1="1264" y1="362" x2="1310" y2="362" stroke="#9FB6C2" stroke-width="1.4" stroke-dasharray="6 5"/>
+  <text x="1324" y="367" class="cn-small">下层 / 顶棚投影</text>
+  <polygon points="1287,382 1279,398 1295,398" fill="#6FE3F2"/>
+  <text x="1324" y="397" class="cn-small">摄像机位</text>
+  <line x1="1264" y1="422" x2="1310" y2="422" stroke="#6FE3F2" stroke-width="1.1" stroke-dasharray="5 6" marker-end="url(#arrowCyan)"/>
+  <text x="1324" y="427" class="cn-small">默认视线</text>
+
+  <!-- dimensions -->
+  <text x="1264" y="470" class="section">尺寸 / DIMENSIONS</text>
+  <line x1="1264" y1="490" x2="1696" y2="490" stroke="#1B2A41" stroke-width="1"/>
+  <text x="1264" y="518" class="rule">舰桥净尺寸　9.0 × 6.6 × 3.0 m</text>
+  <text x="1264" y="542" class="rule">前窗宽 3.2 m · 窗台高 0.9 m</text>
+  <text x="1264" y="566" class="rule">主屏宽 2.4 m · 中心高 1.6 m</text>
+  <text x="1264" y="590" class="rule">控制台高 1.1 m · 座位间距 ≥ 1.2 m</text>
+  <text x="1264" y="614" class="dim">美术设定，非工程图 · NOT FOR CONSTRUCTION</text>
+
+  <!-- side elevation -->
+  <text x="1264" y="654" class="section">侧视示意 / SIDE ELEVATION</text>
+  <line x1="1264" y1="674" x2="1696" y2="674" stroke="#1B2A41" stroke-width="1"/>
+  <g stroke="#6FE3F2" stroke-width="1.2" fill="none" opacity="0.85">
+    <rect x="1278" y="700" width="400" height="110" rx="4"/>
+    <line x1="1278" y1="810" x2="1678" y2="810" stroke-width="2"/>
+    <rect x="1278" y="742" width="70" height="68" fill="#6FE3F2" opacity="0.10"/>
+    <rect x="1430" y="716" width="150" height="40" fill="#6FE3F2" opacity="0.12"/>
+    <rect x="1400" y="780" width="210" height="30" fill="#6FE3F2" opacity="0.10"/>
+  </g>
+  <text x="1286" y="696" class="tiny">顶棚 3.0 m</text>
+  <text x="1432" y="710" class="tiny">主屏中心 1.6 m</text>
+  <text x="1286" y="738" class="tiny">窗台 0.9 m</text>
+  <text x="1404" y="776" class="tiny">控制台 1.1 m</text>
+  <text x="1490" y="796" class="tiny">座椅/束缚带</text>
+
+  <!-- continuity -->
+  <text x="1264" y="850" class="section">连续性规则 / CONTINUITY</text>
+  <line x1="1264" y1="870" x2="1696" y2="870" stroke="#1B2A41" stroke-width="1"/>
+  <text x="1264" y="896" class="rule">目标在前窗偏左；飞船外景统一从左向右</text>
+  <text x="1264" y="918" class="rule">座位不交换；五人服装一致，舱内不戴头盔</text>
+
+  <text x="1264" y="964" class="tiny">ECHO BRIDGE · ART DIRECTION SHEET · 2026-10-29</text>
+</svg>
