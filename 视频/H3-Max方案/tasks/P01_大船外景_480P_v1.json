@@ -1,0 +1,44 @@
+{
+  "status": "downloaded",
+  "created_at": "2026-10-29T02:27:40.931163+00:00",
+  "manifest": {
+    "id": "P01_大船外景_480P_v1",
+    "model": "MiniMax-H3-Max",
+    "resolution": "480P",
+    "duration": 10,
+    "ratio": "16:9",
+    "prompt_file": "prompts/P01_大船外景_v1.txt",
+    "images": [
+      "assets/试片_木星大船_v1.png"
+    ],
+    "audios": []
+  },
+  "prompt_sha256": "79c4b7f80e03403559e023e644ade2b4300d9c64fa34f0dbfeed15679ae1cc5c",
+  "task_id": "457474202906831",
+  "updated_at": "2026-10-29T02:28:12.220546+00:00",
+  "task": {
+    "id": "457474202906831",
+    "model": "MiniMax-H3-Max",
+    "status": "succeeded",
+    "created_at": 1793240861,
+    "updated_at": 1793240877,
+    "content": {
+      "url": "https://algeng-video-infer.oss-cn-shanghai.aliyuncs.com/h3-480p%2F2026%2F10%2F29%2Fstyle1%2F457474202906831-1-d5a9e8ef243aba06_aigc.mp4?Expires=1793327292&OSSAccessKeyId=LTAI5tA8yjKg7HvBRDpzZ8Nk&Signature=v5TYge%2Fr%2FDx4%2B%2Bzd3foPNZpwaj4%3D"
+    },
+    "resolution": "480P",
+    "duration": 10,
+    "usage": {
+      "total_seconds": 10,
+      "input_seconds": 0,
+      "output_seconds": 10,
+      "input_image_count": 1,
+      "total_tokens": 247369,
+      "prompt_tokens": 32549,
+      "completion_tokens": 214820
+    },
+    "ratio": "16:9",
+    "task_type": "generation"
+  },
+  "output": "output/P01_大船外景_480P_v1.mp4",
+  "actual_duration": 10.144
+}

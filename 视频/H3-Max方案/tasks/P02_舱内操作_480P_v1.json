@@ -1,0 +1,45 @@
+{
+  "status": "downloaded",
+  "created_at": "2026-10-29T02:29:20.600315+00:00",
+  "manifest": {
+    "id": "P02_舱内操作_480P_v1",
+    "model": "MiniMax-H3-Max",
+    "resolution": "480P",
+    "duration": 10,
+    "ratio": "16:9",
+    "prompt_file": "prompts/P02_舱内操作_v1.txt",
+    "images": [
+      "assets/试片_驾驶台_v2.png",
+      "assets/定妆照/张楚珺.png"
+    ],
+    "audios": []
+  },
+  "prompt_sha256": "0835f53bffece8c6dcd44823ef881e8b38a6ab382dcc1cc708a232df3b3224d4",
+  "task_id": "457474404258394",
+  "updated_at": "2026-10-29T02:29:36.925671+00:00",
+  "task": {
+    "id": "457474404258394",
+    "model": "MiniMax-H3-Max",
+    "status": "succeeded",
+    "created_at": 1793240961,
+    "updated_at": 1793240976,
+    "content": {
+      "url": "https://algeng-video-infer.oss-cn-shanghai.aliyuncs.com/h3-480p%2F2026%2F10%2F29%2Fstyle1%2F457474404258394-1-345334af5688cf5f_aigc.mp4?Expires=1793327376&OSSAccessKeyId=LTAI5tA8yjKg7HvBRDpzZ8Nk&Signature=LxYs5iYPlm2tM877fJ7S12X5bq4%3D"
+    },
+    "resolution": "480P",
+    "duration": 10,
+    "usage": {
+      "total_seconds": 10,
+      "input_seconds": 0,
+      "output_seconds": 10,
+      "input_image_count": 2,
+      "total_tokens": 279918,
+      "prompt_tokens": 65098,
+      "completion_tokens": 214820
+    },
+    "ratio": "16:9",
+    "task_type": "generation"
+  },
+  "output": "output/P02_舱内操作_480P_v1.mp4",
+  "actual_duration": 10.144
+}

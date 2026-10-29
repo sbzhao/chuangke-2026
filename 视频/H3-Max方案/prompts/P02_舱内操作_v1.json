@@ -1,0 +1,13 @@
+{
+  "id": "P02_舱内操作_480P_v1",
+  "model": "MiniMax-H3-Max",
+  "resolution": "480P",
+  "duration": 10,
+  "ratio": "16:9",
+  "prompt_file": "prompts/P02_舱内操作_v1.txt",
+  "images": [
+    "assets/试片_驾驶台_v2.png",
+    "assets/定妆照/张楚珺.png"
+  ],
+  "audios": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "P01_大船外景_480P_v1",
+  "model": "MiniMax-H3-Max",
+  "resolution": "480P",
+  "duration": 10,
+  "ratio": "16:9",
+  "prompt_file": "prompts/P01_大船外景_v1.txt",
+  "images": [
+    "assets/试片_木星大船_v1.png"
+  ],
+  "audios": []
+}
