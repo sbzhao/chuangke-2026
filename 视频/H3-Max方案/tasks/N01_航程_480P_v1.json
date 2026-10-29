@@ -1,0 +1,44 @@
+{
+  "status": "downloaded",
+  "created_at": "2026-10-29T04:10:19.737594+00:00",
+  "manifest": {
+    "id": "N01_航程_480P_v1",
+    "model": "MiniMax-H3-Max",
+    "resolution": "480P",
+    "duration": 12,
+    "ratio": "16:9",
+    "prompt_file": "prompts/无台词版/N01.txt",
+    "images": [
+      "assets/试片_木星大船_v1.png"
+    ],
+    "audios": []
+  },
+  "prompt_sha256": "f366c1a35f9a07c960cabbf5995b28d69ba8e39c401cbb0fda73ccf4a1e5bde9",
+  "task_id": "457499263586900",
+  "updated_at": "2026-10-29T04:10:51.758772+00:00",
+  "task": {
+    "id": "457499263586900",
+    "model": "MiniMax-H3-Max",
+    "status": "succeeded",
+    "created_at": 1793247021,
+    "updated_at": 1793247036,
+    "content": {
+      "url": "https://algeng-video-infer.oss-cn-shanghai.aliyuncs.com/h3-480p%2F2026%2F10%2F29%2Fstyle1%2F457499263586900-1-fb74a418d58be496_aigc.mp4?Expires=1793333451&OSSAccessKeyId=LTAI5tA8yjKg7HvBRDpzZ8Nk&Signature=MeO6W5sAf3WAUHyUR2D4QeMsrZI%3D"
+    },
+    "resolution": "480P",
+    "duration": 12,
+    "usage": {
+      "total_seconds": 12,
+      "input_seconds": 0,
+      "output_seconds": 12,
+      "input_image_count": 1,
+      "total_tokens": 290333,
+      "prompt_tokens": 32549,
+      "completion_tokens": 257784
+    },
+    "ratio": "16:9",
+    "task_type": "generation"
+  },
+  "output": "output/N01_航程_480P_v1.mp4",
+  "actual_duration": 12.256
+}

@@ -1,0 +1,47 @@
+{
+  "status": "downloaded",
+  "created_at": "2026-10-29T04:11:42.862241+00:00",
+  "manifest": {
+    "id": "N07_封装_480P_v1",
+    "model": "MiniMax-H3-Max",
+    "resolution": "480P",
+    "duration": 15,
+    "ratio": "16:9",
+    "prompt_file": "prompts/无台词版/N07.txt",
+    "images": [
+      "assets/无台词版/loading_start.png",
+      "assets/无台词版/arm.png",
+      "assets/无台词版/rock.png",
+      "assets/无台词版/chamber.png"
+    ],
+    "audios": []
+  },
+  "prompt_sha256": "43e12b077b872ad4ad5271c0ef5bee653f3305bf3e0faabfe38932221473ff69",
+  "task_id": "457499522802280",
+  "updated_at": "2026-10-29T04:12:15.223896+00:00",
+  "task": {
+    "id": "457499522802280",
+    "model": "MiniMax-H3-Max",
+    "status": "succeeded",
+    "created_at": 1793247104,
+    "updated_at": 1793247129,
+    "content": {
+      "url": "https://algeng-video-infer.oss-cn-shanghai.aliyuncs.com/h3-480p%2F2026%2F10%2F29%2Fstyle1%2F457499522802280-1-8ca24f3533d6a0e2_aigc.mp4?Expires=1793333535&OSSAccessKeyId=LTAI5tA8yjKg7HvBRDpzZ8Nk&Signature=XMKUdAJpKUmOu9p09jHlWfa2POI%3D"
+    },
+    "resolution": "480P",
+    "duration": 15,
+    "usage": {
+      "total_seconds": 15,
+      "input_seconds": 0,
+      "output_seconds": 15,
+      "input_image_count": 4,
+      "total_tokens": 452426,
+      "prompt_tokens": 130196,
+      "completion_tokens": 322230
+    },
+    "ratio": "16:9",
+    "task_type": "generation"
+  },
+  "output": "output/N07_封装_480P_v1.mp4",
+  "actual_duration": 15.104
+}

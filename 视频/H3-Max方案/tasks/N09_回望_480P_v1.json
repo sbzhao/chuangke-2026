@@ -1,0 +1,47 @@
+{
+  "status": "downloaded",
+  "created_at": "2026-10-29T04:12:38.056979+00:00",
+  "manifest": {
+    "id": "N09_回望_480P_v1",
+    "model": "MiniMax-H3-Max",
+    "resolution": "480P",
+    "duration": 12,
+    "ratio": "16:9",
+    "prompt_file": "prompts/无台词版/N09.txt",
+    "images": [
+      "assets/无台词版/bridge_five.png",
+      "assets/定妆照/张铭轩.png",
+      "assets/无台词版/companion_closed.png",
+      "assets/无台词版/companion_open.png"
+    ],
+    "audios": []
+  },
+  "prompt_sha256": "c5fba48fb0a8a9f01a5bea0b9b5d205c1b111c38526dd6beba369bcff1246f53",
+  "task_id": "457499476066556",
+  "updated_at": "2026-10-29T04:13:20.543769+00:00",
+  "task": {
+    "id": "457499476066556",
+    "model": "MiniMax-H3-Max",
+    "status": "succeeded",
+    "created_at": 1793247170,
+    "updated_at": 1793247189,
+    "content": {
+      "url": "https://algeng-video-infer.oss-cn-shanghai.aliyuncs.com/h3-480p%2F2026%2F10%2F29%2Fstyle1%2F457499476066556-1-ae41ff5b6addec22_aigc.mp4?Expires=1793333600&OSSAccessKeyId=LTAI5tA8yjKg7HvBRDpzZ8Nk&Signature=HVT6eeVEqH5ncd0bnfT5lo8QoHw%3D"
+    },
+    "resolution": "480P",
+    "duration": 12,
+    "usage": {
+      "total_seconds": 12,
+      "input_seconds": 0,
+      "output_seconds": 12,
+      "input_image_count": 4,
+      "total_tokens": 387980,
+      "prompt_tokens": 130196,
+      "completion_tokens": 257784
+    },
+    "ratio": "16:9",
+    "task_type": "generation"
+  },
+  "output": "output/N09_回望_480P_v1.mp4",
+  "actual_duration": 12.256
+}

@@ -1,0 +1,48 @@
+{
+  "status": "downloaded",
+  "created_at": "2026-10-29T04:11:14.575056+00:00",
+  "manifest": {
+    "id": "N04_接近_480P_v1",
+    "model": "MiniMax-H3-Max",
+    "resolution": "480P",
+    "duration": 12,
+    "ratio": "16:9",
+    "prompt_file": "prompts/无台词版/N04.txt",
+    "images": [
+      "assets/无台词版/bridge_five.png",
+      "assets/定妆照/张铭轩.png",
+      "assets/定妆照/汤兴昊.png",
+      "assets/无台词版/arm.png",
+      "assets/无台词版/rock.png"
+    ],
+    "audios": []
+  },
+  "prompt_sha256": "558adcbbbf9ee14315452f431ea543e2570442c245bbcb42dd2509a8849d1889",
+  "task_id": "457499435987169",
+  "updated_at": "2026-10-29T04:11:48.176500+00:00",
+  "task": {
+    "id": "457499435987169",
+    "model": "MiniMax-H3-Max",
+    "status": "succeeded",
+    "created_at": 1793247076,
+    "updated_at": 1793247100,
+    "content": {
+      "url": "https://algeng-video-infer.oss-cn-shanghai.aliyuncs.com/h3-480p%2F2026%2F10%2F29%2Fstyle1%2F457499435987169-1-5bb119a54d99f739_aigc.mp4?Expires=1793333508&OSSAccessKeyId=LTAI5tA8yjKg7HvBRDpzZ8Nk&Signature=cg1MuZEu8FE9mAzZBXcIbop48z8%3D"
+    },
+    "resolution": "480P",
+    "duration": 12,
+    "usage": {
+      "total_seconds": 12,
+      "input_seconds": 0,
+      "output_seconds": 12,
+      "input_image_count": 5,
+      "total_tokens": 420529,
+      "prompt_tokens": 162745,
+      "completion_tokens": 257784
+    },
+    "ratio": "16:9",
+    "task_type": "generation"
+  },
+  "output": "output/N04_接近_480P_v1.mp4",
+  "actual_duration": 12.256
+}

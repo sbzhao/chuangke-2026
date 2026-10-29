@@ -1,0 +1,15 @@
+{
+  "id": "N07_封装_480P_v1",
+  "model": "MiniMax-H3-Max",
+  "resolution": "480P",
+  "duration": 15,
+  "ratio": "16:9",
+  "prompt_file": "prompts/无台词版/N07.txt",
+  "images": [
+    "assets/无台词版/loading_start.png",
+    "assets/无台词版/arm.png",
+    "assets/无台词版/rock.png",
+    "assets/无台词版/chamber.png"
+  ],
+  "audios": []
+}

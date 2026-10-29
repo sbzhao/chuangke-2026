@@ -1,0 +1,45 @@
+{
+  "status": "downloaded",
+  "created_at": "2026-10-29T04:10:20.929174+00:00",
+  "manifest": {
+    "id": "N02_抵达_480P_v1",
+    "model": "MiniMax-H3-Max",
+    "resolution": "480P",
+    "duration": 12,
+    "ratio": "16:9",
+    "prompt_file": "prompts/无台词版/N02.txt",
+    "images": [
+      "assets/无台词版/bridge_five.png",
+      "assets/定妆照/张楚珺.png"
+    ],
+    "audios": []
+  },
+  "prompt_sha256": "73748386ef7e54d5a04c339ebd83783df1d244aa70f175ff7f7d8f8ad65d9c59",
+  "task_id": "457499048157416",
+  "updated_at": "2026-10-29T04:10:54.357395+00:00",
+  "task": {
+    "id": "457499048157416",
+    "model": "MiniMax-H3-Max",
+    "status": "succeeded",
+    "created_at": 1793247023,
+    "updated_at": 1793247039,
+    "content": {
+      "url": "https://algeng-video-infer.oss-cn-shanghai.aliyuncs.com/h3-480p%2F2026%2F10%2F29%2Fstyle1%2F457499048157416-1-52531b8c7631f8a1_aigc.mp4?Expires=1793333454&OSSAccessKeyId=LTAI5tA8yjKg7HvBRDpzZ8Nk&Signature=0iaTf%2BtMFN0UKaBQtikAPEZWIxs%3D"
+    },
+    "resolution": "480P",
+    "duration": 12,
+    "usage": {
+      "total_seconds": 12,
+      "input_seconds": 0,
+      "output_seconds": 12,
+      "input_image_count": 2,
+      "total_tokens": 322882,
+      "prompt_tokens": 65098,
+      "completion_tokens": 257784
+    },
+    "ratio": "16:9",
+    "task_type": "generation"
+  },
+  "output": "output/N02_抵达_480P_v1.mp4",
+  "actual_duration": 12.256
+}

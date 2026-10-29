@@ -1,0 +1,75 @@
+[
+  {
+    "id": "N01",
+    "source": "P01_大船外景_480P_v1.mp4",
+    "source_start": 0,
+    "duration": 8,
+    "film_start": 0,
+    "film_end": 8
+  },
+  {
+    "id": "N02",
+    "source": "N02_抵达_480P_v1.mp4",
+    "source_start": 0,
+    "duration": 10,
+    "film_start": 8,
+    "film_end": 18
+  },
+  {
+    "id": "N03",
+    "source": "N03_识别_480P_v1.mp4",
+    "source_start": 0,
+    "duration": 10,
+    "film_start": 18,
+    "film_end": 28,
+    "refinement": "0–6s crew; 6–9s rock crop excluding inconsistent companion, stretched to 4s; original 10s nonverbal audio retained"
+  },
+  {
+    "id": "N04",
+    "source": "N04_接近_480P_v1.mp4",
+    "source_start": 0.5,
+    "duration": 10,
+    "film_start": 28,
+    "film_end": 38
+  },
+  {
+    "id": "N05",
+    "source": "N05_等待_480P_v1.mp4",
+    "source_start": 2,
+    "duration": 9,
+    "film_start": 38,
+    "film_end": 47
+  },
+  {
+    "id": "N06",
+    "source": "N06_抓取_480P_v2.mp4",
+    "source_start": 1,
+    "duration": 10,
+    "film_start": 47,
+    "film_end": 57
+  },
+  {
+    "id": "N07",
+    "source": "N07_封装_480P_v1.mp4",
+    "source_start": 1.5,
+    "duration": 13,
+    "film_start": 57,
+    "film_end": 70
+  },
+  {
+    "id": "N08",
+    "source": "N08_异常_480P_v1.mp4",
+    "source_start": 1,
+    "duration": 10,
+    "film_start": 70,
+    "film_end": 80
+  },
+  {
+    "id": "N09",
+    "source": "N09_回望_480P_v1.mp4",
+    "source_start": 2,
+    "duration": 10,
+    "film_start": 80,
+    "film_end": 90
+  }
+]

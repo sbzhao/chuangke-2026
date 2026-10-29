@@ -1,0 +1,16 @@
+{
+  "id": "N04_接近_480P_v1",
+  "model": "MiniMax-H3-Max",
+  "resolution": "480P",
+  "duration": 12,
+  "ratio": "16:9",
+  "prompt_file": "prompts/无台词版/N04.txt",
+  "images": [
+    "assets/无台词版/bridge_five.png",
+    "assets/定妆照/张铭轩.png",
+    "assets/定妆照/汤兴昊.png",
+    "assets/无台词版/arm.png",
+    "assets/无台词版/rock.png"
+  ],
+  "audios": []
+}

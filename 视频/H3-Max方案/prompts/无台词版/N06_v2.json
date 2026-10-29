@@ -1,0 +1,13 @@
+{
+  "id": "N06_抓取_480P_v2",
+  "model": "MiniMax-H3-Max",
+  "resolution": "480P",
+  "duration": 12,
+  "ratio": "16:9",
+  "prompt_file": "prompts/无台词版/N06_v2.txt",
+  "images": [
+    "assets/无台词版/arm.png",
+    "assets/无台词版/rock.png"
+  ],
+  "audios": []
+}
