@@ -6,8 +6,8 @@ import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-REVIEW = ROOT / 'review/无台词版'
-TITLES = REVIEW / 'titles'
+REVIEW = ROOT / 'review' / (sys.argv[2] if len(sys.argv) > 2 else '无台词版')
+TITLES = ROOT / 'review/无台词版/titles'
 OUTPUT = ROOT / 'output' / (sys.argv[1] if len(sys.argv) > 1 else '去看一眼_480P无台词完整版_v1.mp4')
 audio_check = json.loads((REVIEW / '原音轨识别.json').read_text())
 if audio_check.get('text', '').strip() or audio_check.get('n_speakers', 0):
