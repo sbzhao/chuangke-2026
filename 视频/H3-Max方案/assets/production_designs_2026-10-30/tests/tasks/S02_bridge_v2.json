@@ -1,0 +1,54 @@
+{
+  "id": "S02_bridge_v2",
+  "model": "MiniMax-H3-Max",
+  "resolution": "768P",
+  "ratio": "16:9",
+  "duration": 12,
+  "prompt": "prompts/S02_bridge_v2.txt",
+  "references": [
+    {
+      "path": "视频/H3-Max方案/assets/bridge/bridge_five_front_v1.png",
+      "file_id": "457952005910733"
+    },
+    {
+      "path": "characters/focused/张铭轩_focused_v1.png",
+      "file_id": "457952681828582"
+    },
+    {
+      "path": "characters/focused/张楚珺_focused_v1.png",
+      "file_id": "457952292524282"
+    },
+    {
+      "path": "characters/focused/汤兴昊_focused_v1.png",
+      "file_id": "457952801611989"
+    },
+    {
+      "path": "characters/focused/赵以清_focused_v1.png",
+      "file_id": "457952588271846"
+    },
+    {
+      "path": "characters/focused/王一初_focused_v1.png",
+      "file_id": "457952653709925"
+    },
+    {
+      "path": "bridge/stations/pilot_station_v1.png",
+      "file_id": "457951498764541"
+    },
+    {
+      "path": "bridge/stations/command_station_v1.png",
+      "file_id": "457951498764542"
+    },
+    {
+      "path": "ship/echo_side_v1.png",
+      "file_id": "457951569559797"
+    }
+  ],
+  "output": "/Users/jackie/program/codex/chuangke-2026/视频/H3-Max方案/assets/production_designs_2026-10-30/tests/S02_bridge_v2.mp4",
+  "status": "downloaded",
+  "submitted_at": "2026-10-30T18:58:05+0800",
+  "task_id": "457952816083197",
+  "last_status_at": "2026-10-30T18:58:46+0800",
+  "bytes": 20590247,
+  "download_attempts": 1,
+  "completed_at": "2026-10-30T18:58:49+0800"
+}

@@ -1,0 +1,64 @@
+{
+  "model": "MiniMax-H3-Max",
+  "resolution": "768P",
+  "ratio": "16:9",
+  "duration": 12,
+  "requests": [
+    {
+      "id": "S02_bridge_v1",
+      "prompt": "prompts/S02_bridge_v1.txt",
+      "references": [
+        {"path": "视频/H3-Max方案/assets/bridge/bridge_five_front_v1.png", "file_id": "457952005910733"},
+        {"path": "characters/front/张铭轩_front_v1.png", "file_id": "457951471440507"},
+        {"path": "characters/front/张楚珺_front_v1.png", "file_id": "457952026153549"},
+        {"path": "characters/front/汤兴昊_front_v1.png", "file_id": "457951546589809"},
+        {"path": "characters/front/赵以清_front_v1.png", "file_id": "457952221651146"},
+        {"path": "characters/front/王一初_front_v1.png", "file_id": "457952154157268"},
+        {"path": "bridge/stations/pilot_station_v1.png", "file_id": "457951498764541"},
+        {"path": "bridge/stations/command_station_v1.png", "file_id": "457951498764542"},
+        {"path": "ship/echo_side_v1.png", "file_id": "457951569559797"}
+      ],
+      "output": "S02_bridge_v1.mp4"
+    },
+    {
+      "id": "S02_bridge_v2",
+      "prompt": "prompts/S02_bridge_v2.txt",
+      "references": [
+        {"path": "视频/H3-Max方案/assets/bridge/bridge_five_front_v1.png", "file_id": "457952005910733"},
+        {"path": "characters/focused/张铭轩_focused_v1.png", "file_id": "457952681828582"},
+        {"path": "characters/focused/张楚珺_focused_v1.png", "file_id": "457952292524282"},
+        {"path": "characters/focused/汤兴昊_focused_v1.png", "file_id": "457952801611989"},
+        {"path": "characters/focused/赵以清_focused_v1.png", "file_id": "457952588271846"},
+        {"path": "characters/focused/王一初_focused_v1.png", "file_id": "457952653709925"},
+        {"path": "bridge/stations/pilot_station_v1.png", "file_id": "457951498764541"},
+        {"path": "bridge/stations/command_station_v1.png", "file_id": "457951498764542"},
+        {"path": "ship/echo_side_v1.png", "file_id": "457951569559797"}
+      ],
+      "output": "S02_bridge_v2.mp4"
+    },
+    {
+      "id": "S06_manip_v1",
+      "prompt": "prompts/S06_manip_v1.txt",
+      "references": [
+        {"path": "keyframes/start/approach_start_v1.png", "file_id": "457953947185741"},
+        {"path": "keyframes/end/approach_end_v1.png", "file_id": "457953513837172"},
+        {"path": "mechanics/arm/extended_v1.png", "file_id": "457953883742430"},
+        {"path": "mechanics/gripper/open_v1.png", "file_id": "457953588445796"},
+        {"path": "objects/sample_rock_v1.png", "file_id": "457953426674302"}
+      ],
+      "output": "S06_manip_v1.mp4"
+    },
+    {
+      "id": "S06_manip_v2",
+      "prompt": "prompts/S06_manip_v2.txt",
+      "references": [
+        {"path": "keyframes/start/approach_start_v1.png", "file_id": "457953947185741"},
+        {"path": "keyframes/end/approach_end_v1.png", "file_id": "457953513837172"},
+        {"path": "mechanics/arm/extended_v1.png", "file_id": "457953883742430"},
+        {"path": "mechanics/gripper/open_v1.png", "file_id": "457953588445796"},
+        {"path": "objects/sample_rock_v1.png", "file_id": "457953426674302"}
+      ],
+      "output": "S06_manip_v2.mp4"
+    }
+  ]
+}
