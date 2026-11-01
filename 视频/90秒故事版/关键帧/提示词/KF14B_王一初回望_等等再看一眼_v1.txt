@@ -1,0 +1,6 @@
+Use case: identity-preserve. Edit image 1 into the next cinematic 16:9 film keyframe. Image 2 is the exact same boy's side identity reference. LOCK camera, lens, framing, boy's body, chair, spacesuit, badge, transparent rectangular glasses, fringe, face identity, warm bridge illumination and every console. Change ONLY boy's head and gaze: he turns about 40 degrees farther toward frame-left side window, now nearly side profile looking thoughtfully out of the window. Natural child anatomy, both eyeglass temples remain correctly attached, restrained quiet curious expression, lips slightly parted saying '等等。再看它一眼。' without subtitles. The window now contains mostly black space and sparse tiny stars, no bright nebula; a very subtle ordinary blue planetary arc at far left edge may be seen, no eyes or seams. This is after sample recovery, boy has no awareness of a living planet yet. No other people, no added gestures, no text, no cartoon, no adult face, no duplicate head.
+
+参考图：
+/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/关键帧/KF02D_王一初回应闪光_中近景_v1.png
+/Users/jackie/program/codex/chuangke-2026/定妆照/characters/side/王一初_side_v1.png
+

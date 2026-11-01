@@ -182,7 +182,8 @@ def video(manifest_path):
     assert spec['model'] == 'MiniMax-H3-Max' and spec['resolution'] in ('480P', '768P')
     assert 5 <= spec['duration'] <= 15 and spec['ratio'] == '16:9'
     log = ROOT / 'tasks' / (spec['id'] + '.json')
-    output = ROOT / 'output' / (spec['id'] + '.mp4')
+    output = ROOT / spec.get('output_file', 'output/' + spec['id'] + '.mp4')
+    output.parent.mkdir(parents=True, exist_ok=True)
     record = json.loads(log.read_text()) if log.exists() else None
     if record and record.get('status') == 'downloaded' and output.exists():
         print('Already downloaded: ' + str(output), flush=True)

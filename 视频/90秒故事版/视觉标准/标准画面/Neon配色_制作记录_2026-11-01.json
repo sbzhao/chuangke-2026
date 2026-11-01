@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-01",
+  "tool": "内置imagegen",
+  "reference": "/Users/jackie/program/codex/chuangke-2026/Neon-Asteroid-Containment-Lab.png",
+  "prompt": "Use case: lighting-weather. Image1 is EDIT TARGET. Image2 is COLOR/LIGHTING REFERENCE ONLY, Neon-Asteroid-Containment-Lab. Recolor image1 spaceship INTERIOR to exact image2 palette: cool desaturated blue-lavender gray silver metal, cool white ceiling panels/lights, vivid pink/magenta practical strip lights on walls/equipment and triangle edges, soft pink reflections on floor and cool bluish ambient fill. Remove ALL orange amber warm lighting. Retain realistic metallic texture and exposure. Brass claw keeps copper/gold material with cool/pink reflections; rock remains gray-brown. Do not copy image2 composition, rock, machinery or geometry. LOCK image1 camera, aspect ratio 16:9, framing, every object/pose: arm and rigid wrist, five-petal count/open/closed state, stone EXACT shape scale position mineral face, triangle mirror container/pedestal/doors and floor state, genuine mirror reflections. If children appear preserve exact FIVE identities, faces/age/eyeglasses/hair/outfits/positions/gazes; natural skin under cool illumination, white/cyan/pink suits stay same. Blue screens stay blue. Exterior space untouched. Only interior palette and light/reflections change, NO redesign, NO new objects, no text, no collage. Preserve image1 action precisely.",
+  "notes": "每帧补充保持对应动作、门和平台状态。曾一次HTTP403，后重试成功，全部11张完成。",
+  "items": [
+    {
+      "path": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/01_五人舰桥正常工作_眼镜校正_v5.png",
+      "hash": "1c9246b0d960504694dd3a46a7e8b41443383eb343e32588fc80a869f9d7fdf0",
+      "output": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/01_五人舰桥正常工作_眼镜校正_v5_Neon配色_v1.png"
+    },
+    {
+      "path": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/07A_开口朝下_五瓣抓牢携石_石头统一_v6.png",
+      "hash": "f5685e4821bef1d3a622a75b1f361ec79cc82bbd0ad9760ba9f40c99874508a9",
+      "output": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/07A_开口朝下_五瓣抓牢携石_石头统一_v6_Neon配色_v1.png"
+    },
+    {
+      "path": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/07B_开口朝下_落座仍抓牢_石头统一_v6.png",
+      "hash": "5e62e8a4f9a07f8ab38f433f4d284c3169ce377bd1a1adb588f353e0fc5393e6",
+      "output": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/07B_开口朝下_落座仍抓牢_石头统一_v6_Neon配色_v1.png"
+    },
+    {
+      "path": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/07C_刚性连接_五瓣松开未抬臂_石头统一_v6.png",
+      "hash": "395db0b1cae8c038efdd37aa872575a6171376c529d02cd16fb0288a179da5fb",
+      "output": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/07C_刚性连接_五瓣松开未抬臂_石头统一_v6_Neon配色_v1.png"
+    },
+    {
+      "path": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/07D_刚性连接_张瓣抬起空抓手_石头统一_v3.png",
+      "hash": "be55a35a4af1b2c7f1dd8e973148a17374b2ce95acc1e4f19e56bf28d0316f61",
+      "output": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/07D_刚性连接_张瓣抬起空抓手_石头统一_v3_Neon配色_v1.png"
+    },
+    {
+      "path": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/07E_刚性连接_抬起后五瓣闭合_石头统一_v3.png",
+      "hash": "9313a3319449d14a341be11e6dfb04ef845433e52df976ac5103faf967e90b9c",
+      "output": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/07E_刚性连接_抬起后五瓣闭合_石头统一_v3_Neon配色_v1.png"
+    },
+    {
+      "path": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/07F_开口朝下_闭瓣空臂收回_v1.png",
+      "hash": "dce6af8b9a40e6729992e46e047f7f2966a2b896fe0f15a0e062a405c217a68f",
+      "output": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/07F_开口朝下_闭瓣空臂收回_v1_Neon配色_v1.png"
+    },
+    {
+      "path": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/08A_机械臂收拢_回收舱盖关闭_石头统一_v2.png",
+      "hash": "d1aa87751ba093cfd6f9db82d6c713f2630e8d271075f8e6f35f5cbe62c634bb",
+      "output": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/08A_机械臂收拢_回收舱盖关闭_石头统一_v2_Neon配色_v1.png"
+    },
+    {
+      "path": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/08B_同舱封闭_外舱门锁止_石头统一_v2.png",
+      "hash": "277ec3c38db553074c4582792b103643cf4961caf342a0fc0c0d649e0ad9eceb",
+      "output": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/08B_同舱封闭_外舱门锁止_石头统一_v2_Neon配色_v1.png"
+    },
+    {
+      "path": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/09A_升舱起态_中央眼镜校正_石头统一_v3.png",
+      "hash": "c071643804051062bf520c4c321730501d193e06a20b5f198d23f45d98648bf7",
+      "output": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/09A_升舱起态_中央眼镜校正_石头统一_v3_Neon配色_v1.png"
+    },
+    {
+      "path": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/09B_升舱终态_中央眼镜校正_石头统一_v3.png",
+      "hash": "9651d6cc2a0c1ce1b5bbd08a8f09318d73f7db815ec87644d04599e726aad019",
+      "output": "/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/09B_升舱终态_中央眼镜校正_石头统一_v3_Neon配色_v1.png"
+    }
+  ]
+}

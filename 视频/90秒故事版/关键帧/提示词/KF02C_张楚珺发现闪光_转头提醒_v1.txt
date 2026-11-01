@@ -1,0 +1,8 @@
+Use case: identity-preserve. Photoreal live-action film reaction close-medium shot of EXACT schoolgirl Zhang Chujun from image1 front and image2 side. Preserve her original ROUND FULL CHEEKS, small natural eyes, broad smile shape nose chin, bangs tied ponytail, child age, NO GLASSES, no beautification/slimming/adult face. Same white astronaut suit cyan glowing details pink trim five-petal badge. Image3 locks her RIGHT-FRONT science station surroundings: same gray console amber buttons and observation monitor showing tiny blue target, image4 overall bridge room/materials. Camera now from front-left of her console at eye height, 50mm-equivalent waist-up/head-shoulder medium-close, girl on RIGHT half looking slightly LEFT OFF-CAMERA toward commander behind/inside bridge, not at lens. She has just noticed flash and naturally turned head toward teammate, modest excited curiosity, mouth slightly opening to say '你们看', no subtitles or text, not shouting. Body remains seated in SAME science chair, gloved hand rests near controls, do not relocate desk. Monitor edge occupies left foreground, display side faces HER not backward; soft blue screen fill on face plus warm white key, skin natural. Background bridge black space windows softly defocused, no new people in focus, no holograms or eye on screen. Landscape16:9 single cinematic frame, no collage labels or dialogue lettering.
+
+参考图：
+定妆照/characters/front/张楚珺_front_v1.png
+定妆照/characters/side/张楚珺_side_v1.png
+视频/90秒故事版/关键帧/KF02B_远距观测屏_闪光亮态_v1.png
+视频/90秒故事版/视觉标准/标准画面/01_五人舰桥正常工作_眼镜校正_v5.png
+

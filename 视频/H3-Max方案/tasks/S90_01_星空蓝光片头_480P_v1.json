@@ -1,0 +1,42 @@
+{
+  "status": "downloaded",
+  "created_at": "2026-11-01T01:21:08.604557+00:00",
+  "manifest": {
+    "id": "S90_01_星空蓝光片头_480P_v1",
+    "model": "MiniMax-H3-Max",
+    "resolution": "480P",
+    "duration": 5,
+    "ratio": "16:9",
+    "prompt_file": "prompts/S90_01_星空蓝光片头_480P_v1.txt",
+    "images": [],
+    "audios": []
+  },
+  "prompt_sha256": "40eba1c2d9c6f93b9576bd64ea70a219a2d28539773efe8f72d64f0ac0181ee0",
+  "task_id": "458519217349203",
+  "updated_at": "2026-11-01T01:21:25.007562+00:00",
+  "task": {
+    "id": "458519217349203",
+    "model": "MiniMax-H3-Max",
+    "status": "succeeded",
+    "created_at": 1793496068,
+    "updated_at": 1793496074,
+    "content": {
+      "url": "https://algeng-video-infer.oss-cn-shanghai.aliyuncs.com/h3-480p%2F2026%2F11%2F01%2Fstyle1%2F458519217349203-1-5a34db747421d515_aigc.mp4?Expires=1793582485&OSSAccessKeyId=LTAI5tA8yjKg7HvBRDpzZ8Nk&Signature=jqiWL1iq09x0yBJZuQojaLkn7Ik%3D"
+    },
+    "resolution": "480P",
+    "duration": 5,
+    "usage": {
+      "total_seconds": 5,
+      "input_seconds": 0,
+      "output_seconds": 5,
+      "input_image_count": 0,
+      "total_tokens": 107410,
+      "prompt_tokens": 0,
+      "completion_tokens": 107410
+    },
+    "ratio": "16:9",
+    "task_type": "generation"
+  },
+  "output": "output/S90_01_星空蓝光片头_480P_v1.mp4",
+  "actual_duration": 5.184
+}

@@ -1,0 +1,10 @@
+{
+  "id": "S90_01_星空蓝光片头_480P_v1",
+  "model": "MiniMax-H3-Max",
+  "resolution": "480P",
+  "duration": 5,
+  "ratio": "16:9",
+  "prompt_file": "prompts/S90_01_星空蓝光片头_480P_v1.txt",
+  "images": [],
+  "audios": []
+}

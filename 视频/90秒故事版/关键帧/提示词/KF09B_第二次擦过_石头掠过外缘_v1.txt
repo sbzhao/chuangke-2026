@@ -1,0 +1,5 @@
+LOCAL edit image1 only the SINGLE floating ROCK POSITION, second failed capture END FRAME. Arm, five-petal gripper OPEN shape location height orientation, coaxial straight wrist, ship hatch and empty chamber, blue planet starfield camera and lights all remain unchanged. Move same one rock from directly ahead of cup at right-middle upward by roughly one rock diameter and slightly right along an implied tangential drift, placing it just BEYOND upper/front petal rim at right-upper region around x1530 y250. Original rock location becomes EMPTY SPACE, no duplicate ghost, no streaks. Rock retains exact scale rough silhouette silver mineral face orientation. Clear gap around every petal; NO contact, collision, chips, capture or closure. View should read 'aim was aligned but target drifted past before closing' rather than first attempt static low aim. Camera unchanged, no wrist bending or chasing rock, mechanism pauses. Keep5 assemblies even partially occluded. No text arrows labels or motion blur,16:9 photoreal.
+
+参考图：
+视频/90秒故事版/关键帧/KF09A_第二次擦过_高度对准起态_v1.png
+

@@ -1,0 +1,7 @@
+Use case: identity-preserve. Create a single 16:9 photorealistic cinematic live-action science fiction film keyframe, not a collage. Images 1 and 2 are exact identity references of commander Wang Yichu; image 3 is bridge design and light reference. Precisely preserve this real Chinese schoolboy's face, straight black fringe, transparent rectangular eyeglasses clearly visible, child proportions, white spacesuit with cyan lighting and pink trim/flower badge. Chest-up eye-level 50mm medium close-up in the rear-center command chair in this same spacious warm-gray spaceship bridge. Place boy right of center, face in nearly frontal three-quarter view, gaze gently toward frame-left to the science observer off camera, subtle amused curious expression, lips naturally parted to respond to discovery of a flashing point. A dark starfield side window and broad metal window rim at frame-left; correctly oriented low monitor edge facing boy below frame. Closed floor if visible. Cinematic restrained cool window light and soft warm cabin bounce, realistic skin pores, no adults, no other faces, no helmet, no subtitles, no text, no planet eyes. Identity accuracy more important than glamour.
+
+参考图：
+/Users/jackie/program/codex/chuangke-2026/定妆照/characters/front/王一初_front_v1.png
+/Users/jackie/program/codex/chuangke-2026/定妆照/characters/side/王一初_side_v1.png
+/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/01_五人舰桥正常工作_眼镜校正_v5.png
+

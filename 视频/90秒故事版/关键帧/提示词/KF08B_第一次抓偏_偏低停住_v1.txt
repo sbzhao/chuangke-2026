@@ -1,0 +1,5 @@
+Precise next-state edit of image1: FIRST FAILED ATTEMPT STOP FRAME. Keep EXACT camera nose/hatch room background blue planet rock shape and stone center at same position, all light and proportions. Advance open gripper and terminal forearm only a SMALL distance RIGHT about40 pixels along existing horizontal axis through shoulder/elbow extension, keep gripper center clearly BELOW stone by about one rock diameter. STOP before contact; minimum visible dark gap between highest/rightmost fingertip and rock edge. Five gold petals remain fully OPEN same hinge anatomy and orientation as image1, no closure, no touch, no captured rock. Wrist remains straight coaxial with forearm, no wrist turn or bend. Arm base connected inside same shared lower room, triangle container still EMPTY. This frame must read 'approached but too low, paused', not a successful grab. No motion ghosts labels arrows or second rock. All other pixels/composition stable,16:9 photoreal.
+
+参考图：
+视频/90秒故事版/关键帧/KF08A_第一次抓偏_接近起态_v1.png
+

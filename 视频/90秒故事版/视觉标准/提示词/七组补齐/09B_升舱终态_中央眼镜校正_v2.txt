@@ -1,0 +1,5 @@
+MINIMAL PIXEL-LOCAL EDIT to image1 only the BACK CENTER BOY'S EYEGLASSES. At approximately (840,240), add clearly VISIBLE transparent milky-white rectangular eyeglass frames exactly matching image2 Wang Yichu reference: two clear rimmed lenses, visible bridge on nose, temple arms. Frames need subtle white light-catching edges so they read at this distant scale. Keep his SAME face eyes expression frontal head orientation, head silhouette size center hair body unchanged, do NOT replace face or enlarge head. Do NOT modify any other child or any other part of frame. Exact same chamber, floor platform fully docked, room, seats, lighting and camera. Left foreground girl and right middle boy already wear glasses; do not change them. Result exactly three glasses wearers. Single photoreal16:9 same original image.
+
+References in order:
+视频/90秒故事版/视觉标准/标准画面/09B_升舱终态_平台到位五人观看_v1.png
+定妆照/characters/front/王一初_front_v1.png

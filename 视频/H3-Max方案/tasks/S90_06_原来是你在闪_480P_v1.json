@@ -1,0 +1,47 @@
+{
+  "status": "downloaded",
+  "created_at": "2026-11-01T02:56:51.272619+00:00",
+  "manifest": {
+    "id": "S90_06_原来是你在闪_480P_v1",
+    "model": "MiniMax-H3-Max",
+    "resolution": "480P",
+    "duration": 10,
+    "ratio": "16:9",
+    "prompt_file": "prompts/S90_06_原来是你在闪_480P_v1.txt",
+    "images": [
+      "../90秒故事版/关键帧/KF06A_小石头矿物面_闪光前暗态_v1.png",
+      "../90秒故事版/关键帧/KF06C_矮行星普通冰岩表面_微光移焦_v1.png",
+      "../90秒故事版/关键帧/KF06B_小石头矿物面_反射蓝光亮态_v2.png"
+    ],
+    "audios": [],
+    "output_file": "../90秒故事版/视觉标准/试片/S90_06_原来是你在闪_480P_v1.mp4"
+  },
+  "prompt_sha256": "b2ab734c423873a61206b11a3258c38e33f4455102fc3c2e54fc435a6d8329b9",
+  "task_id": "458542953099466",
+  "updated_at": "2026-11-01T02:57:23.033584+00:00",
+  "task": {
+    "id": "458542953099466",
+    "model": "MiniMax-H3-Max",
+    "status": "succeeded",
+    "created_at": 1793501812,
+    "updated_at": 1793501829,
+    "content": {
+      "url": "https://algeng-video-infer.oss-cn-shanghai.aliyuncs.com/h3-480p%2F2026%2F11%2F01%2Fstyle1%2F458542953099466-1-5497d5bc7dcdb977_aigc.mp4?Expires=1793588243&OSSAccessKeyId=LTAI5tA8yjKg7HvBRDpzZ8Nk&Signature=FQ6iXmrg4PYJP86sWp7Ir2WISZ0%3D"
+    },
+    "resolution": "480P",
+    "duration": 10,
+    "usage": {
+      "total_seconds": 10,
+      "input_seconds": 0,
+      "output_seconds": 10,
+      "input_image_count": 3,
+      "total_tokens": 312467,
+      "prompt_tokens": 97647,
+      "completion_tokens": 214820
+    },
+    "ratio": "16:9",
+    "task_type": "generation"
+  },
+  "output": "../90秒故事版/视觉标准/试片/S90_06_原来是你在闪_480P_v1.mp4",
+  "actual_duration": 10.144
+}

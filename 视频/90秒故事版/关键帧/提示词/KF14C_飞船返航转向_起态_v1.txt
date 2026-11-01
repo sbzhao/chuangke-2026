@@ -1,0 +1,7 @@
+Use case: photorealistic-natural. Single 16:9 cinematic realistic space film keyframe, static exterior camera, no cutaway. Images1-2 exact ship identity: long white modular cylinder, ONE large midship vertical ring, aft rectangular radiator panels, forward rounded bridge with panoramic warm windows. Preserve exact architecture and details, no wings or redesign. Image3 exact ordinary blue icy cratered dwarf planet material. Wide establishing composition: complete ship occupies left-to-center 55 percent frame width, nose points frame-right and slightly toward viewer, aft to left. A distant blue dwarf planet occupies rightmost background about 35 percent frame height, separated behind ship, surface entirely ordinary, no eye-like fissure. Ship just ready for return turn, all exterior sampling hatches below bridge CLOSED and flush, arm fully inside, no visible gripper, no stone outside, no external cage or pod. Hard distant sunlight upperleft, restrained blue planet bounce, black vacuum sparse stars, no nebula or asteroid swarm, realistic science fiction blockbuster scale and white hull detail, no labels, text, diagrams, exhaust beam or motion blur. Leave room toward camera for ship to yaw into a more frontal view in the next frame.
+
+参考图：
+/Users/jackie/program/codex/chuangke-2026/定妆照/ship/echo_3quarter_v2.png
+/Users/jackie/program/codex/chuangke-2026/定妆照/ship/echo_side_v2.png
+/Users/jackie/program/codex/chuangke-2026/视频/90秒故事版/视觉标准/标准画面/06A_结尾同机位_普通表面空轨道_v1.png
+

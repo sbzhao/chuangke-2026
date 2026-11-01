@@ -1,0 +1,15 @@
+{
+  "id": "S90_03_决定出发_480P_v1",
+  "model": "MiniMax-H3-Max",
+  "resolution": "480P",
+  "duration": 10,
+  "ratio": "16:9",
+  "prompt_file": "prompts/S90_03_决定出发_480P_v1.txt",
+  "images": [
+    "../90秒故事版/关键帧/KF03A_王一初提出建议_中近景_v1.png",
+    "../90秒故事版/关键帧/KF03B_驾驶台确认航线_手部近景_v1.png",
+    "../90秒故事版/关键帧/KF03C_赵以清回应_中近景_v1.png"
+  ],
+  "audios": [],
+  "output_file": "../90秒故事版/视觉标准/试片/S90_03_决定出发_480P_v1.mp4"
+}

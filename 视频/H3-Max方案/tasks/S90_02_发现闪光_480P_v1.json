@@ -1,0 +1,49 @@
+{
+  "status": "downloaded",
+  "created_at": "2026-11-01T02:03:11.283188+00:00",
+  "manifest": {
+    "id": "S90_02_发现闪光_480P_v1",
+    "model": "MiniMax-H3-Max",
+    "resolution": "480P",
+    "duration": 12,
+    "ratio": "16:9",
+    "prompt_file": "prompts/S90_02_发现闪光_480P_v1.txt",
+    "images": [
+      "../../视频/90秒故事版/视觉标准/标准画面/01_五人舰桥正常工作_五人各看显示屏_Cyan配色_v1.png",
+      "../../视频/90秒故事版/关键帧/KF02A_远距观测屏_闪光前暗态_v1.png",
+      "../../视频/90秒故事版/关键帧/KF02B_远距观测屏_闪光亮态_v1.png",
+      "../../视频/90秒故事版/关键帧/KF02C_张楚珺发现闪光_转头提醒_v1.png",
+      "../../视频/90秒故事版/关键帧/KF02D_王一初回应闪光_中近景_v1.png"
+    ],
+    "audios": [],
+    "output_file": "../90秒故事版/视觉标准/试片/S90_02_发现闪光_480P_v1.mp4"
+  },
+  "prompt_sha256": "53e68416cc369e257c11f098724e93a1e31d1adbd9e9431784785894976f9faa",
+  "task_id": "458529831346763",
+  "updated_at": "2026-11-01T02:03:43.675820+00:00",
+  "task": {
+    "id": "458529831346763",
+    "model": "MiniMax-H3-Max",
+    "status": "succeeded",
+    "created_at": 1793498593,
+    "updated_at": 1793498613,
+    "content": {
+      "url": "https://algeng-video-infer.oss-cn-shanghai.aliyuncs.com/h3-480p%2F2026%2F11%2F01%2Fstyle1%2F458529831346763-1-d104e073672cf389_aigc.mp4?Expires=1793585023&OSSAccessKeyId=LTAI5tA8yjKg7HvBRDpzZ8Nk&Signature=b7ZVqWcJZA5IzucQVsrINVlqmQw%3D"
+    },
+    "resolution": "480P",
+    "duration": 12,
+    "usage": {
+      "total_seconds": 12,
+      "input_seconds": 0,
+      "output_seconds": 12,
+      "input_image_count": 5,
+      "total_tokens": 420529,
+      "prompt_tokens": 162745,
+      "completion_tokens": 257784
+    },
+    "ratio": "16:9",
+    "task_type": "generation"
+  },
+  "output": "../90秒故事版/视觉标准/试片/S90_02_发现闪光_480P_v1.mp4",
+  "actual_duration": 12.256
+}

@@ -1,0 +1,49 @@
+{
+  "status": "downloaded",
+  "created_at": "2026-11-01T06:36:00.268294+00:00",
+  "manifest": {
+    "id": "S90_07_带回去研究_480P_v1",
+    "model": "MiniMax-H3-Max",
+    "resolution": "480P",
+    "duration": 15,
+    "ratio": "16:9",
+    "prompt_file": "prompts/S90_07_带回去研究_480P_v1.txt",
+    "images": [
+      "../90秒故事版/关键帧/KF07A_采样决定_删除11屏幕_五人定妆校准_暖灰琥珀_v4.png",
+      "../90秒故事版/关键帧/KF07B_张铭轩握住操纵杆_固定席位_暖灰琥珀_v1.png",
+      "../90秒故事版/关键帧/KF07C_采样舱外门关闭_机械臂收拢_v1.png",
+      "../90秒故事版/关键帧/KF07D_采样舱外门全开_机械臂仍收拢_v1.png",
+      "../90秒故事版/关键帧/KF07E_机械臂伸出_五瓣张开未接触_v1.png"
+    ],
+    "audios": [],
+    "output_file": "../90秒故事版/视觉标准/试片/S90_07_带回去研究_480P_v1.mp4"
+  },
+  "prompt_sha256": "548c3276774e7af26023f3d9ad81f3e9965621f8606b0467a45043d6f5d599a4",
+  "task_id": "458596040331896",
+  "updated_at": "2026-11-01T06:36:45.658187+00:00",
+  "task": {
+    "id": "458596040331896",
+    "model": "MiniMax-H3-Max",
+    "status": "succeeded",
+    "created_at": 1793514962,
+    "updated_at": 1793514990,
+    "content": {
+      "url": "https://algeng-video-infer.oss-cn-shanghai.aliyuncs.com/h3-480p%2F2026%2F11%2F01%2Fstyle1%2F458596040331896-1-f807b59a340ab827_aigc.mp4?Expires=1793601405&OSSAccessKeyId=LTAI5tA8yjKg7HvBRDpzZ8Nk&Signature=sME9ERpTCL36hmawUitXT%2FHqsZA%3D"
+    },
+    "resolution": "480P",
+    "duration": 15,
+    "usage": {
+      "total_seconds": 15,
+      "input_seconds": 0,
+      "output_seconds": 15,
+      "input_image_count": 5,
+      "total_tokens": 484975,
+      "prompt_tokens": 162745,
+      "completion_tokens": 322230
+    },
+    "ratio": "16:9",
+    "task_type": "generation"
+  },
+  "output": "../90秒故事版/视觉标准/试片/S90_07_带回去研究_480P_v1.mp4",
+  "actual_duration": 15.104
+}
