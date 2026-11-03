@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01_线路设计/01_整机供电与主控.png",
+    "prompt": "精确编辑此线路图：只删除所有包含“AI方案示意”“非施工接线图”的提示性文本、对应外框及下面的解释文字，用纯白背景自然补齐；其他标题、器件标签、连线、图例和布局保持原样，文字清晰。不要新增标识或水印。"
+  },
+  {
+    "file": "01_线路设计/02_底座360度旋转.png",
+    "prompt": "精确编辑此线路图：删除右上角“AI方案示意 · 非施工接线图”整段文字及红色外框，白色填补。其余标题、器件标签、连线、图例和布局保持原样、高清清晰。不要新增任何提示字样或水印。"
+  },
+  {
+    "file": "01_线路设计/03_空间站自主运动.png",
+    "prompt": "精确编辑此线路图：删除标题下“AI方案示意 · 非施工接线图”整行文字，以纯白自然补齐，保持标题在上方。其他所有器件框、标签、红黑蓝线路和布局原样不变、清晰完整。不要新增任何提示文字或水印。"
+  },
+  {
+    "file": "01_线路设计/04_机械臂抓取联动.png",
+    "prompt": "精确编辑此线路图：删除下方红色“AI方案示意 · 非施工接线图”文字和其下方整行解释文字，纯白自然补齐。其他标题、状态序列、器件标签、红黑蓝连线、图例和布局保持不变、高清完整。不要增加提示文字或水印。"
+  },
+  {
+    "file": "01_线路设计/05_环槽小车与磁悬浮灯光.png",
+    "prompt": "精确编辑此线路图：删除右上角“AI方案示意 · 非施工接线图”文字及黑色外框，纯白补齐。其他标题、器件、标签、连线、图例与布局保持不变、清晰完整。不要新增任何提示字样或水印。"
+  },
+  {
+    "file": "02_编程联调/01_底座旋转控制.png",
+    "prompt": "Use case: product-mockup. 制作横向高清写实创客编程联调照片。主角一台正常比例银色14英寸笔记本电脑，正前方略俯视，屏幕盖与键盘底座物理宽度完全相同，铰链自然衔接，标准QWERTY键盘，不要屏幕过大或键盘过小。笔记本占画面约85%，屏幕是重点，屏幕上是完整可信的Arduino IDE 2风格深色编程环境：顶部验证/上传工具栏与ESP32-S3开发板选择栏、左侧项目文件树、中央代码编辑窗口、底部窄输出栏。不展示虚假的测试成功证明。文件base_rotation.ino，清晰可读函数定义和中文注释，正常行号、等宽字体、语法高亮。编辑器占屏幕主体，约25行代码。使用以下主题代码：\n#include <Arduino.h>\n// 太空展示底座：360°低速旋转\n// 减速步进电机由独立驱动器控制\nfloat targetRpm = 0.5f;\n\n// 设置目标转速，限制展示速度\nvoid setBaseSpeed(float rpm) {\n  targetRpm = constrain(rpm, 0.0f, 1.0f);\n  baseMotor.setSpeed(targetRpm);\n}\n\n// 原点传感器触发后校准角度\nvoid updateBaseHome() {\n  if (homeSensor.triggered()) {\n    baseMotor.setPosition(0);\n  }\n}\n\n// 非阻塞更新，留出联动控制时间\nvoid updateBaseRotation() {\n  updateBaseHome();\n  baseMotor.run();\n}\n桌上只有一块ESP32开发板与一个小型减速步进电机，放在笔记本右侧，整齐少量导线，硬件在画面边缘不遮屏幕，屏幕文字对焦清晰、无反光。木桌和干净普通工作室墙面背景，室内自然光，无人物，无AI字样、无水印、无画面外字幕，单张照片不拼贴。"
+  },
+  {
+    "file": "02_编程联调/02_空间站自主运动.png",
+    "prompt": "参考图的电脑外观与摄影构图制作同系列新图，正常银色笔记本，屏幕与底座物理等宽，铰链和QWERTY键盘自然，屏幕占主要画面，电脑占85%，木桌自然光。替换屏幕为Arduino IDE 2深色环境，顶部验证上传和ESP32-S3板卡栏、左项目文件树、中央清晰代码、底部窄输出栏。主题空间站自主运动。文件station_motion.ino，等宽大字号、连续行号、语法高亮，中文注释完整可读，函数定义为重点，括号准确配对。代码如下：\n#include <Arduino.h>\n// 空间站自主运动：低速自转与调速\nfloat stationRpm = 3.0f;\n\n// 将目标转速转换为电机控制量\nvoid setStationSpeed(float rpm) {\n  stationRpm = constrain(rpm, 0.0f, 5.0f);\n  stationMotor.setTarget(stationRpm);\n}\n\n// 读取编码器，更新速度反馈\nvoid updateStationFeedback() {\n  stationMotor.setFeedback(encoder.getRpm());\n}\n\n// 定时调速，避免阻塞其他机构\nvoid updateStation(uint32_t now) {\n  if (now - lastUpdate < 20) return;\n  lastUpdate = now;\n  updateStationFeedback();\n  stationMotor.update();\n}\n右侧桌面替换为一个小减速电机、一块电机驱动板与一片小蓝色太阳能板装饰测试件，不遮屏幕，不保留参考步进电机。只有少量相关硬件，不出现人物或完整作品。无AI提示水印、无字幕、无拼贴、无伪造运行成功结果。"
+  },
+  {
+    "file": "02_编程联调/03_机械臂抓取状态机.png",
+    "prompt": "参考图的正常银色笔记本外观与构图制作同系列横向高清新图，保持屏幕与底座物理等宽、铰链自然，标准键盘，屏幕占主要画面，木桌自然光。屏幕替换成Arduino IDE 2深色环境，工具栏与ESP32-S3板卡栏、左文件树、代码编辑器、底部窄输出栏。文件arm_sequence.ino，清晰等宽字体中文注释与函数定义为重点，代码约30行可读，长函数合理折行，连续行号、语法高亮，括号配对，内容如下：#include <Arduino.h>\n// 机械臂抓取：停车、接近、夹紧、抬起\nenum State { WAIT_DOCK, APPROACH, GRIP, LIFT };\nState state = WAIT_DOCK;\n\n// 小车停稳后，机械臂才能接近\nbool readyToPick() {\n  return cart.isDocked() && cart.isStopped();\n}\n\n// 分步执行抓取动作，避免阻塞\nvoid updatePickSequence() {\n  switch (state) {\n    case WAIT_DOCK:\n      if (readyToPick()) state = APPROACH;\n      break;\n    case APPROACH:\n      arm.moveToPickPose();\n      if (arm.atTarget()) state = GRIP;\n      break;\n    case GRIP:\n      gripper.close();\n      if (gripper.confirmed()) {\n        levitation.requestRelease();\n        state = LIFT;\n      }\n      break;\n    case LIFT:\n      arm.moveToSafePose();\n      break;\n  }\n}\n右侧桌面为两个小舵机与一个简单铝合金夹爪部件，放桌面右侧，不展示整个机械臂，不遮屏幕。无人物无完整作品无水印无AI提示字样，单张照片。"
+  },
+  {
+    "file": "02_编程联调/04_小车定位与灯光.png",
+    "prompt": "参考图笔记本外观与摄影构图制作同系列横向高清图。保持银色电脑屏幕盖和底座实际等宽、铰链自然、QWERTY键盘。屏幕是主要画面，Arduino IDE 2深色环境，顶部工具栏及ESP32-S3板卡选择、左项目树、中央代码、底部窄输出栏。文件orbit_cart.ino，大字号等宽清晰、语法高亮、连续行号，重点展示中文注释和以下函数定义：\n#include <Arduino.h>\n// 环槽小车：带着悬浮石头绕行星公转\n\n// 到达抓取位置时停车\nvoid updateOrbitCart() {\n  if (dockSensor.detected()) {\n    cart.stop();\n    cart.setDocked(true);\n  } else if (!pickRequested) {\n    cart.runSlow();\n  }\n}\n\n// 固定环槽灯带模拟冰蓝行星光晕\nvoid updateRingLights(uint32_t now) {\n  uint8_t level = gentlePulse(now);\n  ringLeds.setColor(80, 180, 255);\n  ringLeds.setBrightness(level);\n  ringLeds.show();\n}\n\n// 磁悬浮稳定由独立闭环模块控制\nvoid updateLevitationStatus() {\n  levitation.readStatus();\n}\n右侧桌面是一辆小型四轮轨道小车测试件与一小段冰蓝LED透光碎石样条，数量少，位于电脑右侧，硬件简单少量，不遮挡屏幕，不出现完整作品或人物。无水印无AI字样无字幕无拼贴。普通木桌自然室内光。"
+  },
+  {
+    "file": "02_编程联调/05_整机联动编程.png",
+    "prompt": "参考笔记本外观与摄影构图制作同系列横向高清新图，银色正常比例笔记本，屏幕盖和底座铰链处实际等宽，QWERTY键盘与触控板比例准确。屏幕为主体，Arduino IDE 2深色界面，顶部验证上传和ESP32-S3板卡选择栏、左文件树、中央代码编辑器、底部窄输出栏，文件main_controller.ino。清晰等宽字体、语法高亮、连续行号，函数定义和中文注释为重点，约30行清晰排版。准确显示以下代码：\n#include <Arduino.h>\n// 蓝色矮行星装置：统一调度各机构\n\n// 急停时关闭所有运动指令\nvoid stopAllMotion() {\n  base.stop();\n  station.stop();\n  cart.stop();\n  arm.holdPosition();\n}\n\n// 各模块独立更新，保持联动响应\nvoid updateExhibit(uint32_t now) {\n  base.update(now);       // 底座360°旋转\n  station.update(now);    // 空间站自主运动\n  cart.update(now);       // 小石头公转\n  arm.update(now);        // 机械臂抓取\n  ringLights.update(now); // 碎石环蓝色灯效\n}\n\n// 主循环不使用长时间延时\nvoid loop() {\n  if (emergencyStop.pressed()) {\n    stopAllMotion();\n    return;\n  }\n  updateExhibit(millis());\n}\n右侧桌面只有一块ESP32主控板、一个红色急停按钮测试件与少量整齐接线，不遮屏幕，无其他模型人物、无水印无AI提示无额外字幕，不拼贴。木桌普通工作室自然室内光。"
+  },
+  {
+    "file": "03_调试示意/01_底座回转机构装配.png",
+    "prompt": "以第一张真实花絮照片为人物和环境参考，生成一张横向高清制作调试场景图。沿用参考照片的三名成员、衣着与白板木桌隔板环境。成员在木桌边共同检查一个尚未装饰的圆形底座机械测试件，直径约70cm的桌面缩比试样，中央滑环、回转轴承和侧置减速步进电机可见，手指指向断电线束，桌上有蓝色泡沫边角料与草图。 保留参考人物的面孔、年龄发型、眼镜和衣着，房间布局忠于参考，日常手机摄影光线，不要通用现代实验室。第二张仅参考目标作品部件设计，不把完整成品搬到桌上。单张自然构图，无拼贴，无字幕、无AI标识、无角标水印。真实的手指和部件连接。",
+    "references": [
+      "/Users/jackie/program/codex/chuangke-2026/花絮/Weixin Image_20261030230704_30_67.jpg",
+      "/Users/jackie/program/codex/chuangke-2026/output/imagegen/蓝色矮行星_透光碎石环_v12.png"
+    ]
+  },
+  {
+    "file": "03_调试示意/02_空间站自主运动测试.png",
+    "prompt": "以第一张真实花絮照片为人物和环境参考，生成一张横向高清制作调试场景。沿用参考照片戴眼镜两名男孩的外貌衣着与该手工作坊、木桌隔板、白板和红色置物架。桌上放一套未完成的空间站自转试样，小型金色飞碟与蓝太阳能板装在电机立柱上，一位用笔记本调参数，一位在旁观察，测试架和低压导线真实。 保留参考人物面孔、年龄发型眼镜衣着，背景是同一个小型美术创客工作坊、白板、木桌隔板和红置物架，日常自然手机摄影光线，不要通用实验室。第二张仅参考空间站金色飞碟蓝太阳能板设计，不照搬整机。单张自然构图，无字幕无AI字样无角标水印无拼贴。",
+    "references": [
+      "/Users/jackie/program/codex/chuangke-2026/花絮/Weixin Image_20261030230701_27_67.jpg",
+      "/Users/jackie/program/codex/chuangke-2026/output/imagegen/蓝色矮行星_透光碎石环_v12.png"
+    ]
+  },
+  {
+    "file": "03_调试示意/03_环槽小车与悬浮调试.png",
+    "prompt": "以第一张真实花絮为人物和环境参考，生成横向高清制作调试场景。沿用参考照片里的戴眼镜男孩与女孩面貌衣着、红布木桌、画材、白板和红色架子的环境。桌面增加一个直径约55cm的圆环U槽试样，顶盖局部打开，槽底四轮小车上圆形磁悬浮模块托起一块灰色小石头，清楚空气间隙；外侧一小段半透明碎石蓝灯样条，成员在外侧观察，手不伸入机构。 保留人物面貌年龄发型眼镜、同样衣着，红桌布木桌、白板和红置物架与参考一致，日常自然光。第二张仅参考目标作品环槽结构和碎石蓝光外观。小车在槽底轨道内，不在槽顶，唯一一块石头悬浮其上；顶盖打开展示内部。自然手机摄影风格，不要豪华实验室或商业棚拍。单张构图，不加字幕、不加AI字样、角标和水印，无拼贴。",
+    "references": [
+      "/Users/jackie/program/codex/chuangke-2026/花絮/微信图片_20261018213123_41_73.jpg",
+      "/Users/jackie/program/codex/chuangke-2026/output/imagegen/蓝色矮行星_透光碎石环_v12.png"
+    ]
+  },
+  {
+    "file": "03_调试示意/04_机械臂抓取联调.png",
+    "prompt": "以第一张真实花絮为人物环境参考，生成一张横向高清制作调试场景。沿用参考照片戴眼镜男孩和女孩面貌、衣着，红布木桌、白板、画材与架子环境。桌面一台小型未喷漆金属舵机机械臂，末端花瓣夹爪接近唯一一块悬浮小石头，石头由停稳轨道小车的圆形电磁底座托起。两位成员在旁边电脑操作和观察，手在机构外，局部测试原型，不用完整成品。 保留人物面貌年龄发型、眼镜和衣着，红桌布、木桌隔板、白板与红架子环境忠于参考。第二张只参考机械臂的多关节和花瓣抓手，不照搬完整成品。唯一一块石头，有清楚悬浮间隙。自然手机拍照质感，日常试装过程，未喷漆铝件与整理中的低压线束，不要豪华实验室。无字幕、无AI提示、无角标水印、无拼贴。",
+    "references": [
+      "/Users/jackie/program/codex/chuangke-2026/花絮/微信图片_20261018213222_52_73.jpg",
+      "/Users/jackie/program/codex/chuangke-2026/output/imagegen/蓝色矮行星_透光碎石环_v12.png"
+    ]
+  },
+  {
+    "file": "03_调试示意/05_整机协作调试.png",
+    "prompt": "以图1真实花絮为人物和环境参考，图2为作品目标外观参考，生成一张横向高清整机调试场景。沿用参考照片三名成员面貌衣着及同一间紧凑的创客美术教室，木桌隔板、白板、红置物架和绘画可见。右侧地面放一套尚未完工的太空作品骨架，底座直径120cm，顶部金属圆灯盘、立柱、上部圆台悬浮小蓝星球、碎石蓝灯环槽、下部空间站和机械臂、底部三角灯箱，部分侧板未装露出线束。一个成员在木桌笔记本前操作，另两位在旁观察，手不触碰运行部件，完整人机比例合理，真实日常试装氛围。 保留三名成员面孔、年龄、发型、眼镜和参考衣着，以及小型美术创客工作坊的白板、画作、红架子、木桌隔板；使用日常自然手机照片质感，绝非商业摄影棚。装置在地面，成员和作品的物理比例合理，别把120cm底座做成桌面小玩具，也不要把装置放大到房间装不下。整机略有未完成的侧板与线束，成员在外侧电脑控制与观察。完整呈现顶部圆灯、蓝星球、发光碎石环槽、空间站、机械臂、三角底灯。自然单张构图，无字幕、AI字样、角标水印、无拼贴。",
+    "references": [
+      "/Users/jackie/program/codex/chuangke-2026/花絮/Weixin Image_20261030230704_30_67.jpg",
+      "/Users/jackie/program/codex/chuangke-2026/output/imagegen/蓝色矮行星_透光碎石环_v12.png"
+    ]
+  }
+]

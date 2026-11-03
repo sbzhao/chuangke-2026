@@ -1,0 +1,21 @@
+{
+  "status": "not_submitted_insufficient_balance",
+  "model": "MiniMax-H3-Max",
+  "resolution": "480P",
+  "duration": 5,
+  "ratio": "16:9",
+  "references": [
+    {
+      "path": "定妆照/jupyter/02A_木星接近.png",
+      "bytes": 1859214,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "定妆照/ship/echo_3quarter_v2.png",
+      "bytes": 2224472,
+      "width": 1672,
+      "height": 941
+    }
+  ]
+}
