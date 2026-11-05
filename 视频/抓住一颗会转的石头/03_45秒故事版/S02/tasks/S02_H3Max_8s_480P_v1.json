@@ -1,0 +1,46 @@
+{
+  "status": "downloaded",
+  "created_at": "2026-11-05T09:21:16.468694+00:00",
+  "manifest": {
+    "id": "S02_H3Max_8s_480P_v1",
+    "model": "MiniMax-H3-Max",
+    "resolution": "480P",
+    "duration": 8,
+    "ratio": "16:9",
+    "prompt_file": "S02_8秒_480P_v1_提示词.txt",
+    "images": [
+      "S02_01_座舱全景_猎户座大星云_v1.png",
+      "S02_02_张楚珺肩后中景_星云图文介绍_v2.png"
+    ],
+    "audios": [],
+    "output_file": "output/S02_H3Max_8s_480P_v1.mp4"
+  },
+  "prompt_sha256": "3b49b6aefe241835f6bb46bcbe5e6ea927e55aa28552815bd61ba9b7137a0893",
+  "task_id": "460052773929198",
+  "updated_at": "2026-11-05T09:21:32.875818+00:00",
+  "task": {
+    "id": "460052773929198",
+    "model": "MiniMax-H3-Max",
+    "status": "succeeded",
+    "created_at": 1793870477,
+    "updated_at": 1793870492,
+    "content": {
+      "url": "https://algeng-video-infer.oss-cn-shanghai.aliyuncs.com/h3-480p%2F2026%2F11%2F05%2Fstyle1%2F460052773929198-1-15a3e043b3064f1a_aigc.mp4?Expires=1793956892&OSSAccessKeyId=LTAI5tA8yjKg7HvBRDpzZ8Nk&Signature=LVqCPV5XZYTeHTwNEPKCi6Ckogs%3D"
+    },
+    "resolution": "480P",
+    "duration": 8,
+    "usage": {
+      "total_seconds": 8,
+      "input_seconds": 0,
+      "output_seconds": 8,
+      "input_image_count": 2,
+      "total_tokens": 236954,
+      "prompt_tokens": 65098,
+      "completion_tokens": 171856
+    },
+    "ratio": "16:9",
+    "task_type": "generation"
+  },
+  "output": "output/S02_H3Max_8s_480P_v1.mp4",
+  "actual_duration": 8.0
+}

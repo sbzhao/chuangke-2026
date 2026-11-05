@@ -1,0 +1,52 @@
+{
+  "status": "downloaded",
+  "created_at": "2026-11-05T08:10:54.306484+00:00",
+  "manifest": {
+    "id": "S01_H3Max_15s_480P_v2",
+    "model": "MiniMax-H3-Max",
+    "resolution": "480P",
+    "duration": 15,
+    "ratio": "16:9",
+    "prompt_file": "S01_15秒_480P_v2_提示词.txt",
+    "images": [
+      "S01_00A_浩瀚宇宙飞船远景_v1.png",
+      "S01_00A2_飞船中景_靠近过渡_v1.png",
+      "S01_00B_靠近驾驶室舷窗_v1.png",
+      "/Users/jackie/program/codex/chuangke-2026/定妆照/chamber/F_座舱观测_银河系_地板关闭_v1.png",
+      "S01_01_任务到达_呼吸光标_v1.png",
+      "S01_02_任务展开_柯伊伯带_v1.png",
+      "S01_03A_王一初准备按键_任务待接受_v1.png",
+      "S01_03_王一初按键_任务已接受_v1.png"
+    ],
+    "audios": [],
+    "output_file": "output/S01_H3Max_15s_480P_v2.mp4"
+  },
+  "prompt_sha256": "d2e383e11a6d1a7d480f904f6e4a0cc71e872c939ba2049c94f3fbd276e48523",
+  "task_id": "460035947930181",
+  "updated_at": "2026-11-05T08:11:39.183235+00:00",
+  "task": {
+    "id": "460035947930181",
+    "model": "MiniMax-H3-Max",
+    "status": "succeeded",
+    "created_at": 1793866268,
+    "updated_at": 1793866295,
+    "content": {
+      "url": "https://algeng-video-infer.oss-cn-shanghai.aliyuncs.com/h3-480p%2F2026%2F11%2F05%2Fstyle1%2F460035947930181-1-233b9c31ccdcd5a7_aigc.mp4?Expires=1793952699&OSSAccessKeyId=LTAI5tA8yjKg7HvBRDpzZ8Nk&Signature=iMEdGMMnzjlcYn1hM2R0V1khDdw%3D"
+    },
+    "resolution": "480P",
+    "duration": 15,
+    "usage": {
+      "total_seconds": 15,
+      "input_seconds": 0,
+      "output_seconds": 15,
+      "input_image_count": 8,
+      "total_tokens": 582622,
+      "prompt_tokens": 260392,
+      "completion_tokens": 322230
+    },
+    "ratio": "16:9",
+    "task_type": "generation"
+  },
+  "output": "output/S01_H3Max_15s_480P_v2.mp4",
+  "actual_duration": 15.104
+}

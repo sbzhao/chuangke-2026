@@ -1,0 +1,50 @@
+{
+  "prompt_chars": 1649,
+  "image_count": 8,
+  "images": [
+    {
+      "path": "S01_00A_浩瀚宇宙飞船远景_v1.png",
+      "bytes": 1829004,
+      "sha256": "80ffcf6454f371455c8d225e658fb8aac8a365bf5102beb3b76565523a947adb"
+    },
+    {
+      "path": "S01_00A2_飞船中景_靠近过渡_v1.png",
+      "bytes": 1981842,
+      "sha256": "b8804882b499dc1ddb1b65579a4e8a6ac2b59b414efd2d8134a1cd234fb2b6bf"
+    },
+    {
+      "path": "S01_00B_靠近驾驶室舷窗_v1.png",
+      "bytes": 2456266,
+      "sha256": "a3b6b49d95c3bcb97e339a62d7ad14082ada415e2a679a1be7c2a83cf8706121"
+    },
+    {
+      "path": "/Users/jackie/program/codex/chuangke-2026/定妆照/chamber/F_座舱观测_银河系_地板关闭_v1.png",
+      "bytes": 2731211,
+      "sha256": "5336fb6489ee1d564101d1b22dc58bbd43272c7c98abf10a88f92c16bbfe2276"
+    },
+    {
+      "path": "S01_01_任务到达_呼吸光标_v1.png",
+      "bytes": 2537067,
+      "sha256": "b8d3a6393cd122daf0b9b9ffd9dbe5b94a794a5ed862ea46b662a6a1250c9086"
+    },
+    {
+      "path": "S01_02_任务展开_柯伊伯带_v1.png",
+      "bytes": 2586924,
+      "sha256": "5f8e69776402ecf75701aceee7bb79c9130a7469c9b5cf902a78e8b6d575ab1d"
+    },
+    {
+      "path": "S01_03A_王一初准备按键_任务待接受_v1.png",
+      "bytes": 2464867,
+      "sha256": "2625aa1d2061f7b80e41e7ca0266019cd32a3cb59e1ded5060bc3f25636da55b"
+    },
+    {
+      "path": "S01_03_王一初按键_任务已接受_v1.png",
+      "bytes": 2542644,
+      "sha256": "670cfb8fbe81fbf05cfbbdd257e149a0f37c6c9f631d8c7f6db8002e07e7e592"
+    }
+  ],
+  "model": "MiniMax-H3-Max",
+  "duration": 15,
+  "resolution": "480P",
+  "status": "ready"
+}

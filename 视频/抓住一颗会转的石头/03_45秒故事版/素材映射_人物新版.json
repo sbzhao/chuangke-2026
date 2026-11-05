@@ -1,0 +1,833 @@
+{
+  "version": "人物新版_2026-11-04",
+  "duration_seconds": 45,
+  "shot_count": 11,
+  "production_directory": "视频/抓住一颗会转的石头/03_45秒故事版",
+  "characters": [
+    {
+      "name": "王一初",
+      "role": "指令长",
+      "seat_rear_to_front": "后中",
+      "references": {
+        "front": "定妆照/characters/front/王一初_front_suit_v4.png",
+        "side": "定妆照/characters/side/王一初_side_suit_v4.png",
+        "focused": "定妆照/characters/focused/王一初_focused_suit_v4.png"
+      }
+    },
+    {
+      "name": "赵以清",
+      "role": "驾驶员",
+      "seat_rear_to_front": "左前",
+      "references": {
+        "front": "定妆照/characters/front/赵以清_front_suit_v4.png",
+        "side": "定妆照/characters/side/赵以清_side_suit_v4.png",
+        "focused": "定妆照/characters/focused/赵以清_focused_suit_v4.png"
+      }
+    },
+    {
+      "name": "张铭轩",
+      "role": "机械臂操作员",
+      "seat_rear_to_front": "左中",
+      "references": {
+        "front": "定妆照/characters/front/张铭轩_front_suit_v4.png",
+        "side": "定妆照/characters/side/张铭轩_side_suit_v4.png",
+        "focused": "定妆照/characters/focused/张铭轩_focused_suit_v4.png"
+      }
+    },
+    {
+      "name": "张楚珺",
+      "role": "科学观察员",
+      "seat_rear_to_front": "右前",
+      "references": {
+        "front": "定妆照/characters/front/张楚珺_front_suit_v4.png",
+        "side": "定妆照/characters/side/张楚珺_side_suit_v4.png",
+        "focused": "定妆照/characters/focused/张楚珺_focused_suit_v4.png"
+      }
+    },
+    {
+      "name": "汤兴昊",
+      "role": "任务工程师",
+      "seat_rear_to_front": "右中",
+      "references": {
+        "front": "定妆照/characters/front/汤兴昊_front_suit_v4.png",
+        "side": "定妆照/characters/side/汤兴昊_side_suit_v4.png",
+        "focused": "定妆照/characters/focused/汤兴昊_focused_suit_v4.png"
+      }
+    }
+  ],
+  "wardrobe": [
+    "定妆照/suit/glacier_fold_front_9yo_v3.png",
+    "定妆照/suit/glacier_fold_side_9yo_v3.png",
+    "定妆照/suit/glacier_fold_back_9yo_v3.png"
+  ],
+  "badge": "定妆照/海报和徽章/徽章_A_旋转石头.png",
+  "shots": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 4,
+      "document": "视频/抓住一颗会转的石头/03_45秒故事版/逐镜描述/S01_任务与出发.md",
+      "featured_characters": [
+        "王一初",
+        "赵以清"
+      ],
+      "pending_material_ids": [
+        "M01",
+        "M12",
+        "A01",
+        "A03"
+      ]
+    },
+    {
+      "id": "S02",
+      "start": 4,
+      "end": 9,
+      "document": "视频/抓住一颗会转的石头/03_45秒故事版/逐镜描述/S02_会发光的水彩.md",
+      "featured_characters": [
+        "张楚珺"
+      ],
+      "pending_material_ids": [
+        "M01",
+        "M08",
+        "A01",
+        "A03"
+      ]
+    },
+    {
+      "id": "S03",
+      "start": 9,
+      "end": 13,
+      "document": "视频/抓住一颗会转的石头/03_45秒故事版/逐镜描述/S03_木星引力弹弓.md",
+      "featured_characters": [
+        "赵以清"
+      ],
+      "pending_material_ids": [
+        "M01",
+        "M12",
+        "A01",
+        "A03"
+      ]
+    },
+    {
+      "id": "S04",
+      "start": 13,
+      "end": 16,
+      "document": "视频/抓住一颗会转的石头/03_45秒故事版/逐镜描述/S04_甜甜圈世界.md",
+      "featured_characters": [
+        "汤兴昊"
+      ],
+      "pending_material_ids": [
+        "M01",
+        "M10",
+        "A01",
+        "A03"
+      ]
+    },
+    {
+      "id": "S05",
+      "start": 16,
+      "end": 19,
+      "document": "视频/抓住一颗会转的石头/03_45秒故事版/逐镜描述/S05_会喷气的冰石.md",
+      "featured_characters": [],
+      "pending_material_ids": [
+        "M01",
+        "M09",
+        "M10",
+        "A01",
+        "A03"
+      ]
+    },
+    {
+      "id": "S06",
+      "start": 19,
+      "end": 22,
+      "document": "视频/抓住一颗会转的石头/03_45秒故事版/逐镜描述/S06_双胞胎冰球.md",
+      "featured_characters": [
+        "张楚珺"
+      ],
+      "pending_material_ids": [
+        "M01",
+        "M10",
+        "A01",
+        "A03"
+      ]
+    },
+    {
+      "id": "S07",
+      "start": 22,
+      "end": 25,
+      "document": "视频/抓住一颗会转的石头/03_45秒故事版/逐镜描述/S07_发现旋转小石头.md",
+      "featured_characters": [
+        "王一初",
+        "张铭轩"
+      ],
+      "pending_material_ids": [
+        "M01",
+        "M03",
+        "M10",
+        "A01",
+        "A03"
+      ]
+    },
+    {
+      "id": "S08",
+      "start": 25,
+      "end": 30,
+      "document": "视频/抓住一颗会转的石头/03_45秒故事版/逐镜描述/S08_跟上它的节拍.md",
+      "featured_characters": [
+        "王一初",
+        "赵以清",
+        "张铭轩",
+        "张楚珺",
+        "汤兴昊"
+      ],
+      "pending_material_ids": [
+        "M03",
+        "M04",
+        "A01",
+        "A03"
+      ]
+    },
+    {
+      "id": "S09",
+      "start": 30,
+      "end": 34,
+      "document": "视频/抓住一颗会转的石头/03_45秒故事版/逐镜描述/S09_封装与升舱.md",
+      "featured_characters": [
+        "汤兴昊"
+      ],
+      "pending_material_ids": [
+        "M02",
+        "M05",
+        "A01",
+        "A03"
+      ]
+    },
+    {
+      "id": "S10",
+      "start": 34,
+      "end": 39,
+      "document": "视频/抓住一颗会转的石头/03_45秒故事版/逐镜描述/S10_外星小朋友的留言.md",
+      "featured_characters": [
+        "王一初",
+        "赵以清",
+        "张铭轩",
+        "张楚珺",
+        "汤兴昊"
+      ],
+      "pending_material_ids": [
+        "M02",
+        "M06",
+        "M07",
+        "M11",
+        "A02",
+        "A03"
+      ]
+    },
+    {
+      "id": "S11",
+      "start": 39,
+      "end": 45,
+      "document": "视频/抓住一颗会转的石头/03_45秒故事版/逐镜描述/S11_接住宇宙的你好.md",
+      "featured_characters": [
+        "王一初",
+        "赵以清",
+        "张铭轩",
+        "张楚珺",
+        "汤兴昊"
+      ],
+      "pending_material_ids": [
+        "M06",
+        "M11",
+        "A03"
+      ]
+    }
+  ],
+  "pending_materials": [
+    {
+      "id": "M01",
+      "priority": "最高",
+      "title": "新版五人舰桥空屏母版（地板关闭）",
+      "status": "需重制",
+      "shots": "S01/S02/S03/S04/S05/S06/S07",
+      "requirement": "现F/G座舱可借构图；按15张新v4、固定座位、旋转石头胸徽和9yo_v3背包重制，屏幕空白，后期连续扫描。",
+      "path": null
+    },
+    {
+      "id": "M02",
+      "priority": "最高",
+      "title": "同机位样品仓初升与到位两帧",
+      "status": "需重制",
+      "shots": "S09/S10",
+      "requirement": "现E初升图只供构图；五人用新版，仓内闭合石头完整可见，到位时才自动出现外星动画。",
+      "path": null
+    },
+    {
+      "id": "M03",
+      "priority": "最高",
+      "title": "单块太空石头闭合、弱腰缝状态",
+      "status": "需补场景关键帧",
+      "shots": "S07/S08",
+      "requirement": "现stone_01是地面摆拍；去地面、无盒子、不提前发强光；配普通无眼蓝色矮行星。",
+      "path": null
+    },
+    {
+      "id": "M04",
+      "priority": "最高",
+      "title": "非剖视抓取接近与夹稳两帧",
+      "status": "需补场景关键帧",
+      "shots": "S08",
+      "requirement": "现arm两图为剖面旧石头；同机位五瓣抓手、单一新版石头、机械臂连船、先跟转再夹稳。",
+      "path": null
+    },
+    {
+      "id": "M05",
+      "priority": "最高",
+      "title": "托座接样、空爪退出、密封三帧",
+      "status": "需补场景关键帧",
+      "shots": "S09",
+      "requirement": "现container四格只能参考；统一真实装载门与可行路径，先托座固定再放手，门关闭后升舱。",
+      "path": null
+    },
+    {
+      "id": "M06",
+      "priority": "最高",
+      "title": "密闭样品仓内石头闭合/半开/全开三帧",
+      "status": "需重制",
+      "shots": "S10/S11",
+      "requirement": "现stone_03金色盒绿带且上盖悬浮；本版深蓝盒银带、隐藏铰链、外仓密闭、礼物盒不打开。",
+      "path": null
+    },
+    {
+      "id": "M07",
+      "priority": "高",
+      "title": "外星小朋友动画半身口型图",
+      "status": "需由现图派生",
+      "shots": "S10",
+      "requirement": "角色全身图已齐，补脸部足够大、同角色、直视镜头、友善挥手的动画半身画面。",
+      "path": null
+    },
+    {
+      "id": "M08",
+      "priority": "高",
+      "title": "猎户座星云独立无字观测画面",
+      "status": "未在本次制作目录找到",
+      "shots": "S02",
+      "requirement": "可新制或采用有来源和许可说明的观测图；不要让飞船真的穿星云。",
+      "path": null
+    },
+    {
+      "id": "M09",
+      "priority": "中",
+      "title": "向左喷流的冰石状态图",
+      "status": "需调整方向",
+      "shots": "S05",
+      "requirement": "当前图向右下喷流；按本片左喷右移制作，或统一更新全套箭头与运动方向，不能混用。",
+      "path": null
+    },
+    {
+      "id": "M10",
+      "priority": "高",
+      "title": "连续9秒观测屏工程及未识别扫描图层",
+      "status": "后期工程尚缺",
+      "shots": "S04/S05/S06/S07",
+      "requirement": "三种天体图片已有，需连续扫描、同一外框、记录栏、识别标签；S07明确未识别目标。",
+      "path": null
+    },
+    {
+      "id": "M11",
+      "priority": "中",
+      "title": "新版五人无声惊喜与挥手场景",
+      "status": "需由现图派生",
+      "shots": "S10/S11",
+      "requirement": "focused已有，不算缺人物表情参考；缺同舱同座位反应关键帧，不遮礼物。",
+      "path": null
+    },
+    {
+      "id": "M12",
+      "priority": "高",
+      "title": "任务卡与木星引力辅助屏幕动画",
+      "status": "后期工程尚缺",
+      "shots": "S01/S03",
+      "requirement": "船外木星图已齐；仍需屏幕动画的开放弧线、速度箭头与漫长航行字幕。",
+      "path": null
+    },
+    {
+      "id": "A01",
+      "priority": "高",
+      "title": "智能系统最终播报音轨",
+      "status": "未在当前制作包找到",
+      "shots": "S01—S09",
+      "requirement": "按当前台词清单分句合成并校时，五位队员零对白；系统不要读外星赠礼句。",
+      "path": null
+    },
+    {
+      "id": "A02",
+      "priority": "高",
+      "title": "外星小朋友AI赠礼音轨",
+      "status": "未在当前制作包找到",
+      "shots": "S10",
+      "requirement": "保留原句，中文清楚、轻微外星共振，含效果5秒内；先定声音后制作动画口型。",
+      "path": null
+    },
+    {
+      "id": "A03",
+      "priority": "中",
+      "title": "音乐与提示/机械效果音轨",
+      "status": "未在当前制作包找到",
+      "shots": "全片",
+      "requirement": "13—22秒连续乐句和扫描底音，机械与升降音、结尾音乐控制在45秒内。",
+      "path": null
+    }
+  ],
+  "existing_image_inventory": [
+    {
+      "path": "定妆照/alien-child/alien_child_reference_v1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1793395,
+      "sha256": "e9c3ec17c72e47eca7e3c96b044ca10200d502d2286166eb73f89c6470e757cf"
+    },
+    {
+      "path": "定妆照/arm/extended_same_compartment_v3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2601336,
+      "sha256": "f532d15d2fe9c7890177d3acb5edcf11c5956752cec08b7bfb8a455df529bcdd"
+    },
+    {
+      "path": "定妆照/arm/grasp_same_compartment_v3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2496373,
+      "sha256": "a0c28924397cbeeef3d6296e4c242a6cf79c4c7ce51ad6027118c8bc346d07c5"
+    },
+    {
+      "path": "定妆照/chamber/E_飞船内部座舱_太空服与星星礼物_v3_背包遮挡.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2726607,
+      "sha256": "0b7607753c5f3a630c346e27028bc608430b078400db8e54e2df7b37869eeab7"
+    },
+    {
+      "path": "定妆照/chamber/E_飞船内部座舱_石头舱初升与星空_v5.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2538475,
+      "sha256": "0bbc922d511a17bb53b02e4867edda63f34395260ab71b81a4811467080bf7e9"
+    },
+    {
+      "path": "定妆照/chamber/E_飞船内部座舱_空屏与打开舱口_v3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2508682,
+      "sha256": "6cfd99ff7fa6a562f132b2cb64a94992a381d39561e8b95a3f20edeb3975d942"
+    },
+    {
+      "path": "定妆照/chamber/E_飞船内部座舱_透明星空屏与打开舱口_v4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2677636,
+      "sha256": "06b288d787a8ea2898eefb8eccb5bff06c7630512b2a85d177ac0c77589bf2c9"
+    },
+    {
+      "path": "定妆照/chamber/F_座舱观测_双胞胎冰球_地板关闭_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2699311,
+      "sha256": "79b5d592b6f58de3e4f11745f78daa927476abcc09c5f4bbc7235f1815c3f466"
+    },
+    {
+      "path": "定妆照/chamber/F_座舱观测_喷气冰石_地板关闭_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2683811,
+      "sha256": "0f880485f8623bbdbcedd9380f1d404183752c397876e687744bbbca2f8687c4"
+    },
+    {
+      "path": "定妆照/chamber/F_座舱观测_甜甜圈小行星_地板关闭_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2725079,
+      "sha256": "725a1fe45abbdc384540a1fa5ddd3eab71dd004fa2612b6f791457f82d722448"
+    },
+    {
+      "path": "定妆照/chamber/G_座舱目标锁定_双胞胎冰球_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2604363,
+      "sha256": "1e5865b2ebdf1e73c810de9ef633d59f50167a2a8942f7c4018b6e3f607dacb3"
+    },
+    {
+      "path": "定妆照/chamber/G_座舱目标锁定_喷气冰石_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2608744,
+      "sha256": "c97107db62ad39d78a55d79949b198d370706daf82f8c939dd7daa16f278b9d3"
+    },
+    {
+      "path": "定妆照/chamber/G_座舱目标锁定_甜甜圈小行星_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2683906,
+      "sha256": "2570fe541ba36e074ef271fc66f83b0ef03d842d66878bdca55aa9a6984603d1"
+    },
+    {
+      "path": "定妆照/characters/focused/张楚珺_focused_suit_v4.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2064225,
+      "sha256": "35cbd8519a28960646f6f8a5ace008d82808a90fe3f8d5cfd242188b1c10d506"
+    },
+    {
+      "path": "定妆照/characters/focused/张铭轩_focused_suit_v4.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2087365,
+      "sha256": "f78367d8b79f78e4b0b75d775066fc76c14342eecf7c412031f177055ed87a6f"
+    },
+    {
+      "path": "定妆照/characters/focused/汤兴昊_focused_suit_v4.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2033143,
+      "sha256": "eebef5c63d7bbf2c6c33f6de6ad5256cd9f843057b9d4435c9d35884777fbbd0"
+    },
+    {
+      "path": "定妆照/characters/focused/王一初_focused_suit_v4.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1986998,
+      "sha256": "b46d93816b655cdbf952aae11b1f9c77451a58c3db8144b6b237b917eba6b8bd"
+    },
+    {
+      "path": "定妆照/characters/focused/赵以清_focused_suit_v4.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2051024,
+      "sha256": "687a72d9e7423abe5a81a63a331adca1e5eccd694896676e2e82d60a7f300ae8"
+    },
+    {
+      "path": "定妆照/characters/front/张楚珺_front_suit_v4.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1960960,
+      "sha256": "2b4f92612a28be9d7a9a3bf8dc943fadfee2deaa80be03d11a0867dd15cc42d0"
+    },
+    {
+      "path": "定妆照/characters/front/张铭轩_front_suit_v4.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1896487,
+      "sha256": "f74c76030c16029bb0ed25dd92058a964d7a459b33f35d97ab84e809131c099c"
+    },
+    {
+      "path": "定妆照/characters/front/汤兴昊_front_suit_v4.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1899693,
+      "sha256": "2750257bf1192794308e94bfbb935a9f52e0bf813186d71c546372df5f4281d1"
+    },
+    {
+      "path": "定妆照/characters/front/王一初_front_suit_v4.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1896331,
+      "sha256": "0b9f9a4d64ec3d080569c891056022f1a7622b30faeadd9ef31b0a5edf35b1c0"
+    },
+    {
+      "path": "定妆照/characters/front/赵以清_front_suit_v4.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1900967,
+      "sha256": "617f9316c16ae209264ce7381ee14bcc3951acbd1ddd442fa95bc6b97b54bc14"
+    },
+    {
+      "path": "定妆照/characters/side/张楚珺_side_suit_v4.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1809946,
+      "sha256": "518862af73ee7215529b919b621d8081f0165382cee85f64b10751d5c1a3edcd"
+    },
+    {
+      "path": "定妆照/characters/side/张铭轩_side_suit_v4.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1791204,
+      "sha256": "301624b6ac4bb9cbdaaacdb2abd0338c558d60870835a9723e1e9ff296c5ea65"
+    },
+    {
+      "path": "定妆照/characters/side/汤兴昊_side_suit_v4.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1794215,
+      "sha256": "18772f0bec498310238019a4bf747b1cebcd5b34e3364ac32f3626e44026c0c9"
+    },
+    {
+      "path": "定妆照/characters/side/王一初_side_suit_v4.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1782302,
+      "sha256": "4793ff608c7677a88180ea9519210683a8ee5f1c4effa05a07ad0ae3fd2cdd35"
+    },
+    {
+      "path": "定妆照/characters/side/赵以清_side_suit_v4.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1820211,
+      "sha256": "c7125dd8cc5b273a73fdfa93910db8241833dd9287bfbfe098ff0497db169d44"
+    },
+    {
+      "path": "定妆照/container/container_reference_sheet_v3.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2249458,
+      "sha256": "4c042cfab119a98781845927a87d90bddf9eedef15014f19cf2d4c666581357a"
+    },
+    {
+      "path": "定妆照/donut-asteroid/donut_asteroid_reference_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2787801,
+      "sha256": "6fc95dfbc13103c0fe85c951cccff32640a559c11eb27941f45e807f5d42538b"
+    },
+    {
+      "path": "定妆照/gripper/closed_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1788270,
+      "sha256": "d55f9b2102ae6eebbb825abc5bf4c8efcf41a4e8843458f4371315c488ca5509"
+    },
+    {
+      "path": "定妆照/gripper/grasp_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2283941,
+      "sha256": "d186d79ad58dac997db689f639d8966bd83ca4017ed506ec45ce1a9207d31054"
+    },
+    {
+      "path": "定妆照/gripper/open_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2226258,
+      "sha256": "1a08b7576e1f8414525601fa12237899ead0c43d4f91b675c34f824118ff14b1"
+    },
+    {
+      "path": "定妆照/jet-ice-rock/jet_ice_rock_reference_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2521188,
+      "sha256": "71b63bf5aeaa244482dca1ef62722b5c6879d667f38313851e778c93342aefff"
+    },
+    {
+      "path": "定妆照/jupyter/02A_木星接近.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1859214,
+      "sha256": "c554c3d17817fac205124ef28bbfcfaa6f74d46a27397e567329f9eab2afbba9"
+    },
+    {
+      "path": "定妆照/jupyter/02B_木星云带上方掠过.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2428863,
+      "sha256": "c1b4884e05ef12302a4c582d2cd8ffb1e593e38d361b19adcc8a6602ecf61153"
+    },
+    {
+      "path": "定妆照/jupyter/02C_木星晨昏线离开.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2019421,
+      "sha256": "c034ce99119c6a575eb3e8d1d23f68b0cc0eaec0a11b6fc2591c763b5c39cec9"
+    },
+    {
+      "path": "定妆照/planet/01_无眼版本_左.png",
+      "width": 627,
+      "height": 836,
+      "bytes": 678407,
+      "sha256": "c91836f210dc84c70ed5c093c63998e77a01523453cca12d9cc41bf1b810f08c"
+    },
+    {
+      "path": "定妆照/planet/02_无眼版本_中.png",
+      "width": 621,
+      "height": 836,
+      "bytes": 642252,
+      "sha256": "a63a1b984e66c549eee1bb83959fc75ec9d6d486c2c1f35bdcd461521c5fc178"
+    },
+    {
+      "path": "定妆照/planet/03_睁眼.png",
+      "width": 624,
+      "height": 836,
+      "bytes": 658541,
+      "sha256": "55a16c3e11761e2e27191eca85f55c9567beb0b1f71374c14a787adfc9a3c1c9"
+    },
+    {
+      "path": "定妆照/planet/03_睁眼_温柔可爱.png",
+      "width": 1083,
+      "height": 1452,
+      "bytes": 2054493,
+      "sha256": "5fc17b18d9363f4cd6e1a6099bc8d988c43accdb1a2243755334dcbd84cb94af"
+    },
+    {
+      "path": "定妆照/planet/04_闭眼.png",
+      "width": 1083,
+      "height": 1452,
+      "bytes": 1834280,
+      "sha256": "dc69796b34e7965cccd9f8302e23589f6f62c022c6889314ddc1a8ac8893a11a"
+    },
+    {
+      "path": "定妆照/planet/04_闭眼_温柔可爱.png",
+      "width": 1083,
+      "height": 1452,
+      "bytes": 2042446,
+      "sha256": "4685489df6ce5647ef956ca3cc6a8bbf426fc92c4e9d2edf5bf74d5ce7327006"
+    },
+    {
+      "path": "定妆照/planet/05_半闭眼.png",
+      "width": 1083,
+      "height": 1452,
+      "bytes": 1787895,
+      "sha256": "722f0bf994f07dcffbd62266fe433eb31a0bbff78a8ad693842f15a4054b690f"
+    },
+    {
+      "path": "定妆照/planet/05_半闭眼_温柔可爱.png",
+      "width": 1083,
+      "height": 1452,
+      "bytes": 1973927,
+      "sha256": "8c034170193cc9b7dc46d0473c0875f10abc7a7a564d2a2b5b93c37c6883c776"
+    },
+    {
+      "path": "定妆照/ship/echo_3quarter_v2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2224472,
+      "sha256": "630546ef770e484a25cab0c2da728d9c246f4f82e18b3af14b4438f93294a99f"
+    },
+    {
+      "path": "定妆照/ship/echo_bridge_sampling_cutaway_v2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2570974,
+      "sha256": "41c7dfdae544a2e80b3223cdb96fd657e51ec82fa9f25dc2b2b8f8036766b2fd"
+    },
+    {
+      "path": "定妆照/ship/echo_front_under_open_v2.png",
+      "width": 1671,
+      "height": 941,
+      "bytes": 2531519,
+      "sha256": "9058be3ec2ba634f0ec451f1d7ccb3f688cebda21a8ff699f606f0496b371846"
+    },
+    {
+      "path": "定妆照/ship/echo_side_v2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2273787,
+      "sha256": "0cfa3b98025cdae278ab50db93be50f6f5f76754a5e565a92f79d42a10ef7175"
+    },
+    {
+      "path": "定妆照/stone/stone_01_闭合_v1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2445230,
+      "sha256": "8397e6975e4b289e089e4f5656b5ea3482b7bc2dabe8b2f89d94dd59c506c1de"
+    },
+    {
+      "path": "定妆照/stone/stone_02_发光裂缝_v1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2387796,
+      "sha256": "74c1dc7471d3305f922c05decdb0ff12449385cbb87330e2a53bbe09537e3b79"
+    },
+    {
+      "path": "定妆照/stone/stone_03_打开_v1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2313123,
+      "sha256": "0d806a1b9becaba189acb01e225ed88feedff602801799e2e0936faf062fc1b5"
+    },
+    {
+      "path": "定妆照/suit/glacier_fold_back_9yo_v3.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1787186,
+      "sha256": "f7b5a58e68d64e39fbcd3f9be840c2a9cf5faa68ea5b6097cd663d7c8c46fe21"
+    },
+    {
+      "path": "定妆照/suit/glacier_fold_front_9yo_v3.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1775289,
+      "sha256": "78656453b529af40b6d1948c945f563767d97adc2b451a819b81ceef417dbbc6"
+    },
+    {
+      "path": "定妆照/suit/glacier_fold_side_9yo_v3.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1722869,
+      "sha256": "2ab7449ee4311e59b7c9723f55476f3070c82905144e8cb63bb424e878cd590f"
+    },
+    {
+      "path": "定妆照/twin-ice-balls/twin_ice_balls_reference_v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2450855,
+      "sha256": "44b913492acb7427ec3180ef62d4dea163ef8ddb896de1cb09ff45abe39834b7"
+    },
+    {
+      "path": "定妆照/海报和徽章/徽章_A_旋转石头.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1154192,
+      "sha256": "d413e3d3fcc468c6eea7b3c8b3af5840c87d65f296d2799862622be813b0c2cc"
+    },
+    {
+      "path": "定妆照/海报和徽章/海报_v2_大飞船_300dpi.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2776126,
+      "sha256": "063c3b87a48c32660bbcd5c4656a7cfd871ff69d7aa8aef2f4e09edb4d2ab670"
+    },
+    {
+      "path": "定妆照/科考服/冰川折线/张楚珺.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2041257,
+      "sha256": "7033b96131915c88e45f1270b73d6150cda982ccc2232d651293ecfbc5d1b87e"
+    },
+    {
+      "path": "定妆照/科考服/冰川折线/张铭轩.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1984142,
+      "sha256": "a9b2b2fbc2c81998b52a3cd6d15e2e023a6fb35fe844df93236ac32464fb81e2"
+    },
+    {
+      "path": "定妆照/科考服/冰川折线/汤兴昊.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1970856,
+      "sha256": "fb7b46886c69cccb936470a79c345739be570336d85e8034c27bf474dfbc514e"
+    },
+    {
+      "path": "定妆照/科考服/冰川折线/王一初.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1923320,
+      "sha256": "e4c49f03f465e2e0d406f6217f64a41f8d02d85a62ec23a4646da7361eac86b9"
+    },
+    {
+      "path": "定妆照/科考服/冰川折线/赵以清.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1929925,
+      "sha256": "cdc00f48bd587cb4fd1dda774c69c337a821c700a58e006c9f24f52d23467b0e"
+    },
+    {
+      "path": "定妆照/科考服/冰川折线.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2174868,
+      "sha256": "3792adcdc33497fc50b2b4b7b8e311787743b82652f130b537b4b37094e62075"
+    }
+  ]
+}

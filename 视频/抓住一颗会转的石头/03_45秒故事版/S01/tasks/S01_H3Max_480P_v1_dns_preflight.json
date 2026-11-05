@@ -1,0 +1,24 @@
+{
+  "status": "submission_error_or_uncertain",
+  "created_at": "2026-11-05T07:40:23.123806+00:00",
+  "manifest": {
+    "id": "S01_H3Max_480P_v1",
+    "model": "MiniMax-H3-Max",
+    "resolution": "480P",
+    "duration": 8,
+    "ratio": "16:9",
+    "prompt_file": "S01_480P_v1_提示词.txt",
+    "images": [
+      "S01_00A_浩瀚宇宙飞船远景_v1.png",
+      "S01_00B_靠近驾驶室舷窗_v1.png",
+      "S01_01_任务到达_呼吸光标_v1.png",
+      "S01_02_任务展开_柯伊伯带_v1.png",
+      "S01_03_王一初按键_任务已接受_v1.png"
+    ],
+    "audios": [],
+    "output_file": "output/S01_H3Max_480P_v1.mp4"
+  },
+  "prompt_sha256": "9ee3e9a73701bee1436ffc1260b0d7d57ac9e5f716c7a4b3d1f41b33bbad95c2",
+  "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "updated_at": "2026-11-05T07:40:23.175522+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "prompt_chars": 1104,
+  "image_count": 2,
+  "images": [
+    {
+      "path": "S02_01_座舱全景_猎户座大星云_v1.png",
+      "bytes": 2675175,
+      "sha256": "f42a022ab7faebc51b605944e21f801a037eb3d34bb6b48a1b283fca1beb1b16"
+    },
+    {
+      "path": "S02_02_张楚珺肩后中景_星云图文介绍_v2.png",
+      "bytes": 2435460,
+      "sha256": "9f977a480046d3ad455f206b5d3e19f0e05f3e70531da50fa8a9f711f5d46f01"
+    }
+  ],
+  "status": "ready_to_submit",
+  "system_line": "星云由气体和尘埃组成，是恒星的育婴房。"
+}
